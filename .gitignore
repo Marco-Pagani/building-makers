@@ -4,7 +4,6 @@
 
 # Add the entire Grav site to GitHub
 # https://getgrav.org/blog/developing-with-github-part-2
-composer.lock
 backup/*
 !backup/.*
 cache/*
