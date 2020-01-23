@@ -4,6 +4,7 @@ taxonomy:
 	author: Allan,Brito
 	pubdate: 2018
 	audience: 
+	expertise: 
 ---
 ## Blender Quick Start Guide: 3D Modeling, Animation, and Render with Eevee in Blender 2.8
 ### By Allan,Brito
@@ -11,4 +12,12 @@ taxonomy:
 
 **Publication Date:** 2018
 
+**Expertise Level:** 
+
+**Intended Audience:** 
+
 **ISBN:** 978-1-78961-293-6
+
+[Amazon Link]()
+
+[Worldcat Link]()

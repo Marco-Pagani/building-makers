@@ -4,6 +4,7 @@ taxonomy:
 	author: 
 	pubdate: 
 	audience: 
+	expertise: 
 ---
 ## Raspberry Pi For Dummies
 ### By 
@@ -11,4 +12,12 @@ taxonomy:
 
 **Publication Date:** 
 
+**Expertise Level:** 
+
+**Intended Audience:** 
+
 **ISBN:** 
+
+[Amazon Link]()
+
+[Worldcat Link]()

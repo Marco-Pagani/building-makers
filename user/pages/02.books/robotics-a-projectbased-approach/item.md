@@ -4,6 +4,7 @@ taxonomy:
 	author: Mike,Lakshmi; Tanamachi,Valerie Haynes; Prayaga,Sam; Perry,Garvey
 	pubdate: 2015
 	audience: 
+	expertise: 
 ---
 ## Robotics : a project-based approach
 ### By Mike,Lakshmi; Tanamachi,Valerie Haynes; Prayaga,Sam; Perry,Garvey
@@ -11,4 +12,12 @@ taxonomy:
 
 **Publication Date:** 2015
 
+**Expertise Level:** 
+
+**Intended Audience:** 
+
 **ISBN:** 1-305-27102-5
+
+[Amazon Link]()
+
+[Worldcat Link]()
