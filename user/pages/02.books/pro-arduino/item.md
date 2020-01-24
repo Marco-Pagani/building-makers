@@ -19,5 +19,3 @@ UF Library - TJ223.P76A53 2013eb
 **ISBN:** 978-1430239390
 
 [Amazon Link](https://www.amazon.com/Arduino-Technology-Action-Rick-Anderson/dp/1430239395/ref=sr_1_2?s=books&ie=UTF8&qid=1541654520&sr=1-2&keywords=Pro+Arduino&dpID=51h3K8dlXoL&preST=_SX258_BO1,204,203,200_QL70_&dpSrc=srch)
-
-[Worldcat Link]()

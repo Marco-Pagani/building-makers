@@ -19,5 +19,3 @@ Crafting Wearables begins with the history of the field, then covers current pra
 **ISBN:** 978-1484218075
 
 [Amazon Link](https://www.amazon.com/Crafting-Wearables-Blending-Technology-Fashion/dp/1484218078)
-
-[Worldcat Link]()

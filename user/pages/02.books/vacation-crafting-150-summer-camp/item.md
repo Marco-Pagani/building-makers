@@ -9,7 +9,6 @@ taxonomy:
 ## Vacation crafting : 150+ summer camp projects for boys & girls to make
 ### By Suzanne,McNeill
 
-
 **Publication Date:** 2018
 
 **Expertise Level:** Beginner
@@ -17,7 +16,3 @@ taxonomy:
 **Intended Audience:** K-12
 
 **ISBN:** 978-1-64124-017-8 1-64124-017-2
-
-[Amazon Link]()
-
-[Worldcat Link]()

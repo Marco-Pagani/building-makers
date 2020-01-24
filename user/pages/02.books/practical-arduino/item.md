@@ -19,5 +19,3 @@ UF Library - QA76.76.O63O93 2009
 **ISBN:** 978-1430224778
 
 [Amazon Link](https://www.amazon.com/Practical-Arduino-Projects-Hardware-Technology/dp/1430224770)
-
-[Worldcat Link]()

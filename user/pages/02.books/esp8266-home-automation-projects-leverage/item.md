@@ -9,15 +9,4 @@ taxonomy:
 ## ESP8266 home automation projects : leverage the power of this tiny WiFi chip to build exciting smart home projects
 ### By Catalin.,Batrinu
 
-
 **Publication Date:** 2017
-
-**Expertise Level:** 
-
-**Intended Audience:** 
-
-**ISBN:** 
-
-[Amazon Link]()
-
-[Worldcat Link]()

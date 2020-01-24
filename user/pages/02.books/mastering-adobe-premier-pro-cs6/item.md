@@ -16,8 +16,6 @@ Straight forward and easy to follow, this book will guide you through video proj
 
 **Intended Audience:** General
 
-**ISBN:** 
-
 [Amazon Link](https://www.amazon.com/Mastering-Adobe-Premiere-Pro-Hotshot/dp/1849694788/ref=sr_1_fkmr0_1?keywords=Mastering+Adobe+Premier+Pro+CS6+Hotshot+%3A+take+your+video+editing+skills+to+new+and+exciting+levels+with+eight+fantastic+projects&qid=1571940446&sr=8-1-fkmr0)
 
 [Worldcat Link](https://www.worldcat.org/title/mastering-adobe-premier-pro-cs6-hotshot/oclc/1105798795&referer=brief_results)

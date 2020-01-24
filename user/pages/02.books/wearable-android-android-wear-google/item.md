@@ -19,5 +19,3 @@ This book covers wearable computing and wearable application development particu
 **ISBN:** 978-1119051107
 
 [Amazon Link](https://www.amazon.com/Wearable-Android-Wear-Google-Development-ebook/dp/B015ZLIEPQ/ref=sr_1_1?s=books&ie=UTF8&qid=1543370896&sr=1-1&keywords=Wearable+Android%3A+Android+wear+and+Google+Fit)
-
-[Worldcat Link]()

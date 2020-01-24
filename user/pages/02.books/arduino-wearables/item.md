@@ -19,5 +19,3 @@ UF lib - QA76.592.O47 2012
 **ISBN:** 978-1430243595
 
 [Amazon Link](https://www.amazon.com/Arduino-Wearables-Technology-Action-Olsson/dp/1430243597)
-
-[Worldcat Link]()

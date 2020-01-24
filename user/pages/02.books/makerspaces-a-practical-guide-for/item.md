@@ -12,8 +12,6 @@ The book provides guidance, information and resources for librarians to create t
 
 **Publication Date:** 2018
 
-**Expertise Level:** 
-
 **Intended Audience:** College/University,Libraries
 
 **ISBN:** 978-1-5381-0818-5 1-5381-0818-6

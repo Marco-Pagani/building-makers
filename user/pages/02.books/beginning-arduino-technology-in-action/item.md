@@ -19,5 +19,3 @@ UF - TK7835.M37 2013
 **ISBN:** 978-1430250166
 
 [Amazon Link](https://www.amazon.com/Beginning-Arduino-Technology-Michael-McRoberts/dp/143025016X)
-
-[Worldcat Link]()

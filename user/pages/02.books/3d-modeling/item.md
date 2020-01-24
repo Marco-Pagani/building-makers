@@ -9,15 +9,6 @@ taxonomy:
 ## 3D Modeling
 ### By Theo,Zizka
 
-
 **Publication Date:** 2014
 
-**Expertise Level:** 
-
-**Intended Audience:** 
-
 **ISBN:** 978-1-63137-812-6
-
-[Amazon Link]()
-
-[Worldcat Link]()

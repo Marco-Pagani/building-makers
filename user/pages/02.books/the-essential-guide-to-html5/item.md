@@ -9,15 +9,6 @@ taxonomy:
 ## The essential guide to HTML5 : using games to learn HTML5 and JavaScript
 ### By Jeanine,Meyer
 
-
 **Publication Date:** 2018
 
-**Expertise Level:** 
-
-**Intended Audience:** 
-
 **ISBN:** 1-4842-4154-1
-
-[Amazon Link]()
-
-[Worldcat Link]()

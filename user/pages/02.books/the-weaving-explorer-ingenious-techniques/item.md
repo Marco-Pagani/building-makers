@@ -9,12 +9,7 @@ taxonomy:
 ## The weaving explorer : ingenious techniques, accessible tools & creative projects with yarn, paper, wire & more
 ### By Gwen,; Steege,Deborah,Jarchow
 
-
 **Publication Date:** 2019
-
-**Expertise Level:** 
-
-**Intended Audience:** 
 
 **ISBN:** 978-1-63586-028-3 1-63586-028-8
 

@@ -9,12 +9,7 @@ taxonomy:
 ## Amazing origami gifts
 ### By Rob,Ives
 
-
 **Publication Date:** 2019
-
-**Expertise Level:** 
-
-**Intended Audience:** 
 
 **ISBN:** 978-1-5415-4280-8 1-5415-4280-0
 

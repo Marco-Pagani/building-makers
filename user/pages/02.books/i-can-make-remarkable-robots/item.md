@@ -17,7 +17,3 @@ This fun and colorful book contains 3 projects to teach your child the basics of
 **Intended Audience:** K-12
 
 **ISBN:** 978-0-531-23410-5 0-531-23410-X 978-0-531-23879-0 0-531-23879-2
-
-[Amazon Link]()
-
-[Worldcat Link]()

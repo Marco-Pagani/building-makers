@@ -12,8 +12,6 @@ This book is dedicated  to answering the leading questions faced by Makers and t
 
 **Publication Date:** 2017
 
-**Expertise Level:** 
-
 **Intended Audience:** Libraries,K-12,College/University
 
 **ISBN:** 978-1-119-25970-1 1-119-25970-3

@@ -9,15 +9,6 @@ taxonomy:
 ## Raspberry Pi Projects for Kids.
 ### By Daniel (Computer science researcher),Bates
 
-
 **Publication Date:** 2014
 
-**Expertise Level:** 
-
-**Intended Audience:** 
-
 **ISBN:** 1-306-53840-8
-
-[Amazon Link]()
-
-[Worldcat Link]()

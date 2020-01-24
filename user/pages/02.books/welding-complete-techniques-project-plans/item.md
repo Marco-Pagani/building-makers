@@ -12,10 +12,6 @@ Welding complete begins by discussing the basics of welding and then outlines pr
 
 **Publication Date:** 2017
 
-**Expertise Level:** 
-
-**Intended Audience:** 
-
 **ISBN:** 0-7603-5774-9
 
 [Amazon Link](https://www.amazon.com/Welding-Complete-2nd-Techniques-Instructions/dp/159186691X/ref=sr_1_2?keywords=Welding+complete+%3A+techniques%2C+project+plans+%26+instructions&qid=1571081471&sr=8-2)

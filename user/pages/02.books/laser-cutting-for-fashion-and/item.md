@@ -19,5 +19,3 @@ In this book, Laura Berens Baker provides 14 inspirational projects that demonst
 **ISBN:** 978-1780676173
 
 [Amazon Link](https://www.amazon.com/Laser-Cutting-Fashion-Textiles-Berens/dp/1780676174/ref=sr_1_7?s=books&ie=UTF8&qid=1543380732&sr=1-7&keywords=Laser+Cutting)
-
-[Worldcat Link]()

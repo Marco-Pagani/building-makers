@@ -19,5 +19,3 @@ Very specific to the medical field - focused on smart technologies (glasses and 
 **ISBN:** 978-0128118108
 
 [Amazon Link](https://www.amazon.com/Wearable-Technology-Medicine-Health-Care/dp/0128118105/ref=sr_1_1?ie=UTF8&qid=1543368171&sr=8-1&keywords=wearable+technology+in+medicine+and+health+care)
-
-[Worldcat Link]()

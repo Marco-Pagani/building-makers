@@ -19,5 +19,3 @@ UF Library Catalog - TJ223.P76L36 2015
 **ISBN:** 978-1118919606
 
 [Amazon Link](https://www.amazon.com/Arduino-Sketches-Techniques-Programming-Wizardry/dp/1118919602)
-
-[Worldcat Link]()

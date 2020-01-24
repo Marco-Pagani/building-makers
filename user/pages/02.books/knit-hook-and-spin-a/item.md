@@ -9,15 +9,6 @@ taxonomy:
 ## Knit, Hook, and Spin: A Kid's Activity Guide to Fiber Arts and Crafts
 ### By Laurie,Carlson
 
-
 **Publication Date:** 2016
 
-**Expertise Level:** 
-
-**Intended Audience:** 
-
 **ISBN:** 978-1-61373-403-2
-
-[Amazon Link]()
-
-[Worldcat Link]()

@@ -19,5 +19,3 @@ Make: Wearable Electronics is intended for those with an interest in physical co
 **ISBN:** 978-1449336516
 
 [Amazon Link](https://www.amazon.com/Make-Wearable-Electronics-prototype-interactive-ebook/dp/B00MNTH1H6)
-
-[Worldcat Link]()

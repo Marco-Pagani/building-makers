@@ -9,15 +9,6 @@ taxonomy:
 ## Robotics : a project-based approach
 ### By Mike,Lakshmi; Tanamachi,Valerie Haynes; Prayaga,Sam; Perry,Garvey
 
-
 **Publication Date:** 2015
 
-**Expertise Level:** 
-
-**Intended Audience:** 
-
 **ISBN:** 1-305-27102-5
-
-[Amazon Link]()
-
-[Worldcat Link]()

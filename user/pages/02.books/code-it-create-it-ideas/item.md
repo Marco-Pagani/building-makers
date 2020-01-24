@@ -9,15 +9,6 @@ taxonomy:
 ## Code it! Create it! : ideas + inspiration for coding
 ### By Brenna,Sarah; Vaughan,Hutt
 
-
 **Publication Date:** 2017
 
-**Expertise Level:** 
-
-**Intended Audience:** 
-
 **ISBN:** 978-0-399-54255-8
-
-[Amazon Link]()
-
-[Worldcat Link]()

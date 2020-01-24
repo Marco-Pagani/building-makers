@@ -19,5 +19,3 @@ Sew Electric is a set of hands-on LilyPad Arduino tutorials that bring together 
 **ISBN:** 978-0989795609
 
 [Amazon Link](https://www.amazon.com/Sew-Electric-Leah-Buechley/dp/0989795608)
-
-[Worldcat Link]()

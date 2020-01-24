@@ -9,15 +9,4 @@ taxonomy:
 ## A Hands-On Course in Sensors Using the Arduino and Raspberry Pi
 ### By Volker Ziemann
 
-
 **Publication Date:** 2018
-
-**Expertise Level:** 
-
-**Intended Audience:** 
-
-**ISBN:** 
-
-[Amazon Link]()
-
-[Worldcat Link]()

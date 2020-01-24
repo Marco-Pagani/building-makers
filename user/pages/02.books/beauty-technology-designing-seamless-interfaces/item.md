@@ -19,5 +19,3 @@ By using the body's surface as an interactive platform, the integration of techn
 **ISBN:** 978-3319157610
 
 [Amazon Link](https://www.amazon.com/Beauty-Technology-Interfaces-Human-Computer-Interaction-ebook/dp/B01G4XEUE8/ref=sr_1_1?ie=UTF8&qid=1543369392&sr=8-1&keywords=beauty+technology+designing+seamless+interfaces+for+wearable+computing)
-
-[Worldcat Link]()

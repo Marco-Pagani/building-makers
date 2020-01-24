@@ -19,5 +19,3 @@ The text details more of the applications and history of wearables and augmented
 **ISBN:** 978-1138749313
 
 [Amazon Link](https://www.amazon.com/Fundamentals-Wearable-Computers-Augmented-Reality-ebook/dp/B011NH3DB6/ref=sr_1_1?ie=UTF8&qid=1543370188&sr=8-1&keywords=wearable+computers+and+augmented+reality)
-
-[Worldcat Link]()

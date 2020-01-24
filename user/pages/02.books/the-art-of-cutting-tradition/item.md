@@ -19,5 +19,3 @@ This book presents a selection of artists who revisit and work with traditional 
 **ISBN:** 978-8415967156
 
 [Amazon Link](https://www.amazon.com/Art-Cutting-Tradition-Techniques-Cardboard/dp/8415967152/ref=sr_1_12?s=books&ie=UTF8&qid=1543380732&sr=1-12&keywords=Laser+Cutting)
-
-[Worldcat Link]()

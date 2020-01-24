@@ -12,12 +12,6 @@ taxonomy:
 
 **Publication Date:** 2014
 
-**Expertise Level:** 
-
-**Intended Audience:** 
-
 **ISBN:** 9.78E+12
-
-[Amazon Link]()
 
 [Worldcat Link](http://www.worldcat.org/oclc/904719184)

@@ -19,5 +19,3 @@ This text provides readers with an exploratory lens into the general world of th
 **ISBN:** 978-1499465044
 
 [Amazon Link](https://www.amazon.com/Creating-Cutters-Engravers-Getting-Creative/dp/1499465041/ref=sr_1_11?s=books&ie=UTF8&qid=1543380732&sr=1-11&keywords=Laser+Cutting)
-
-[Worldcat Link]()

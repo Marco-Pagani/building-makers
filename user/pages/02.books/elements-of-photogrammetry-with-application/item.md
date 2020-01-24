@@ -9,15 +9,6 @@ taxonomy:
 ## Elements of Photogrammetry with Application in GIS
 ### By Benjamin E.,Bon A.; Wilkinson,Paul R.; Dewitt,Wolf
 
-
 **Publication Date:** 2014
 
-**Expertise Level:** 
-
-**Intended Audience:** 
-
 **ISBN:** 0071761128 (hbk.)
-
-[Amazon Link]()
-
-[Worldcat Link]()

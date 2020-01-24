@@ -7,17 +7,3 @@ taxonomy:
 	expertise: 
 ---
 ## Raspberry Pi For Dummies
-### By 
-
-
-**Publication Date:** 
-
-**Expertise Level:** 
-
-**Intended Audience:** 
-
-**ISBN:** 
-
-[Amazon Link]()
-
-[Worldcat Link]()
