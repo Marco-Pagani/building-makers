@@ -1,0 +1,10 @@
+enabled: false
+select_pages:
+  - /books
+taxonomy_filters:
+  - author
+  - pubdate
+  - audience
+  - expertise
+  - subject
+  - keywords
