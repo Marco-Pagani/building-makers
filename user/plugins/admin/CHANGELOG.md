@@ -1,3 +1,17 @@
+# v1.9.14
+## 04/27/2020
+
+1. [](#improved)
+    * Added `slug` and `type` to blueprints
+
+# v1.9.13
+## 03/05/2020
+
+1. [](#improved)
+    * Updated vendor libs
+1. [](#bugfix)
+    * Fixed toggleable buttons no longer holding false state [form#406](ttps://github.com/getgrav/grav-plugin-form/issues/406)
+
 # v1.9.12
 ## 12/04/2019
 
