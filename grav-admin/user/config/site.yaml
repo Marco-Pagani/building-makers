@@ -1,7 +1,0 @@
-title: Maker Books
-author:
-  name: Sara Gonzalez
-  email: 'saragonz@ufl.edu'
-metadata:
-    description: 'An online bibliography for maker-related books and websites'
-taxonomies: [pubdate, audience, expertise, subject, keywords]
