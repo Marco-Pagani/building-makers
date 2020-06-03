@@ -4,10 +4,13 @@ author:
   name: 'Sara Gonzalez'
   email: saragonz@ufl.edu
 taxonomies:
-  - category
-  - tag
+  - pubdate
+  - audience
+  - expertise
+  - subject
+  - keywords
 metadata:
-  description: 'My Grav Site'
+  description: 'An online bibliography for maker-related books and websites'
 summary:
   enabled: true
   format: short
