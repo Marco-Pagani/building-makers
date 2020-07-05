@@ -1,6 +1,5 @@
 ---
 title: '3D animation for the raw beginner using Autodesk Maya 2nd edition'
-media_order: book-cover-placeholder-200x300.png
 taxonomy:
     pubdate:
         - '2019'

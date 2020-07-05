@@ -10,10 +10,9 @@ content:
         by: title
         dir: asc
     pagination: true
-    limit: 10
+    limit: 12
 feed:
-    description: 'Sample Blog Description'
-    limit: 10
+    limit: 12
 pagination: true
 ---
 

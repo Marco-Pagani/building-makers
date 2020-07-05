@@ -6,9 +6,8 @@
 !/images/.gitkeep
 /tmp/
 !/tmp/.gitkeep
-/assets/
-!/assets/.gitkeep
 /backup/
 !/backup/.gitkeep
 /logs/
 !/logs/.gitkeep
+/cache/
