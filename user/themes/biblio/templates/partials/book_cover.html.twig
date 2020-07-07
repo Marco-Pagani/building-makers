@@ -1,0 +1,49 @@
+<div class="list-item h-entry">
+
+    {% set header_image = page.header.header_image|defined(true) %}
+    {% set header_image_width  = page.header.header_image_width|defined(260) %}
+    {% set header_image_height = page.header.header_image_height|defined(390) %}
+    {% set header_image_file = page.header.header_image_file %}
+
+    <div class="list-blog-header">
+
+        <!-- BOOK COVER -->
+        {% if header_image %}
+        {% if header_image_file %}
+        {% set header_image_media = page.media.images[header_image_file] %}
+        {% else %}
+        {% if page.media.images %}
+        {% set header_image_media = page.media.images|first %}
+        {% else %}
+        {% set header_image_media =  media['user://pages/images/placeholder.png'] %}
+        {% endif %}
+        {% endif %}
+        {{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
+        {% endif %}
+
+        <!-- TITLE -->
+        {% if page.header.link %}
+        <p class="p-name">
+            {% if page.header.continue_link is not sameas(falFheader_imagese) %}
+            <a href="{{ page.url }}"><i class="fa fa-angle-double-right u-url"></i></a>
+            {% endif %}
+            <a href="{{ page.header.link }}" class="u-url">{{ page.title }}</a>
+        </p>
+        {% else %}
+        <p class="p-name"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></p>
+        {% endif %}
+
+        <!-- TAGS -->
+        {% if page.taxonomy.tag %}
+        <span class="tags">
+            {% for tag in page.taxonomy.tag %}
+            <a href="{{ blog.url|rtrim('/') }}/tag{{ config.system.param_sep }}{{ tag }}"
+                class="p-category">{{ tag }}</a>
+            {% endfor %}
+        </span>
+        {% endif %}
+
+    </div>
+
+
+</div>
