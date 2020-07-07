@@ -1,13 +1,12 @@
 ---
-title: 3D animation for the raw beginner using Autodesk Maya 2nd edition
+title: '3D animation for the raw beginner using Autodesk Maya 2nd edition'
 taxonomy:
-	author: Roger (Roger Alan),King
-	pubdate: 2019
-	audience: 
-	expertise: 
+    pubdate:
+        - '2019'
 ---
+
 ## 3D animation for the raw beginner using Autodesk Maya 2nd edition
-### By Roger (Roger Alan),King
+### By Roger King
 
 **Publication Date:** 2019
 

@@ -1,0 +1,29 @@
+name: Biblio
+version: 1.0.0
+description: "A themecustomized for bilbiographies"
+icon: empire
+author:
+  name: Marco Pagani
+  email: marco.pagani@ufl.edu
+  url: http://getgrav.org
+homepage: https://github.com
+keywords: antimatter, theme, core, modern, fast, responsive, html5, css3
+bugs: https://github.com
+license: MIT
+
+dependencies:
+  - { name: grav, version: '>=1.5.10' }
+
+form:
+  validation: loose
+  fields:
+    dropdown.enabled:
+        type: toggle
+        label: Dropdown in navbar
+        highlight: 1
+        default: 1
+        options:
+          1: PLUGIN_ADMIN.ENABLED
+          0: PLUGIN_ADMIN.DISABLED
+        validate:
+          type: bool

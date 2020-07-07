@@ -1,0 +1,11 @@
+enabled: true
+dropdown:
+  enabled: false
+streams:
+ schemes:
+   theme:
+     type: ReadOnlyStream
+     prefixes:
+       '':
+         - user/themes/biblio
+         - user/themes/antimatter
