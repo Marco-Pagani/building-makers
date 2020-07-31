@@ -1,14 +1,15 @@
 ---
-title: Coding for kids for dummies
+title: Coding For Kids For Dummies
 taxonomy:
-	author: Camille,McCue
-	pubdate: 2015
-	audience: 
-	expertise: 
+	author: [Camille McCue]
+	pubdate: 2014
+	isbn: 9781118940327
+	subjects: [Computers]
+	audience: []
+	expertise: []
+cover: http://books.google.com/books/content?id=X6jCBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+amazon: nil
+worldcat: nil
+google: https://books.google.com/books/about/Coding_For_Kids_For_Dummies.html?hl=&id=X6jCBwAAQBAJ
 ---
-## Coding for kids for dummies
-### By Camille,McCue
-
-**Publication Date:** 2015
-
-**ISBN:** 1-118-94032-6
+Provides step-by-step instructions for fifteen projects designed to teach the basics of writing computer programs, including an art toy, a miniature golf game, and an animated winter wonderland scene.

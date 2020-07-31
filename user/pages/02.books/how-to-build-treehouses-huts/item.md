@@ -1,14 +1,15 @@
 ---
-title: How to build treehouses, huts & forts
+title: How to Build Treehouses, Huts and Forts
 taxonomy:
-	author: David R.,Stiles
-	pubdate: 2018
-	audience: 
-	expertise: 
+	author: [David Stiles]
+	pubdate: 2003
+	isbn: 1592281923
+	subjects: [Hand Tools, Architecture]
+	audience: []
+	expertise: []
+cover: http://books.google.com/books/content?id=3900od2rKbsC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+amazon: nil
+worldcat: nil
+google: https://books.google.com/books/about/How_to_Build_Treehouses_Huts_and_Forts.html?hl=&id=3900od2rKbsC
 ---
-## How to build treehouses, huts & forts
-### By David R.,Stiles
-
-**Publication Date:** 2018
-
-**ISBN:** 978-1-4930-3673-8 1-4930-3673-4
+Finally, a practical guide to building castles in the air.

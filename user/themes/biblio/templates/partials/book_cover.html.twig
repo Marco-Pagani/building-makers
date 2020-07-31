@@ -6,21 +6,24 @@
 {% set header_image_file = page.header.header_image_file %}
 <a href="{{ page.url }}">
 	<div class="card" style="height: 100%">
-		<div
-			class="card-image">
+		<div class="card-image">
 			<!-- BOOK COVER -->
-
-			{% if header_image %}
-				{% if header_image_file %}
-					{% set header_image_media = page.media.images[header_image_file] %}
-				{% else %}
-					{% if page.media.images %}
-						{% set header_image_media = page.media.images|first %}
-					{% else %}
-						{% set header_image_media =  media['user://pages/images/placeholder.png'] %}
-					{% endif %}
-				{% endif %}
-				{{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
+			{#
+						{% if header_image %}
+							{% if header_image_file %}
+								{% set header_image_media = page.media.images[header_image_file] %}
+							{% else %}
+								{% if page.media.images %}
+									{% set header_image_media = page.media.images|first %}
+								{% else %}
+									{% set header_image_media =  media['user://pages/images/placeholder.png'] %}
+								{% endif %}
+							{% endif %}
+							{{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
+						{% endif %}
+						 #}
+				{% if page.header.cover != nil %}
+			<img src="{{page.header.cover}}" style=" object-fit: cover; width: 100%;"> 
 			{% endif %}
 		</div>
 		<div
