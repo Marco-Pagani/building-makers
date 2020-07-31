@@ -1,14 +1,15 @@
 ---
-title: Wood carving
+title: Wood Carving
 taxonomy:
-	author: Boy Scouts of America
-	pubdate: 2016
-	audience: 
-	expertise: 
+	author: [Boy Scouts of America]
+	pubdate: 1994
+	isbn: 0839533098
+	subjects: [Hand Tools, Crafts & Hobbies]
+	audience: []
+	expertise: []
+cover: http://books.google.com/books/content?id=d4WyvMFL6TcC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+amazon: nil
+worldcat: nil
+google: https://books.google.com/books/about/Wood_Carving.html?hl=&id=d4WyvMFL6TcC
 ---
-## Wood carving
-### By Boy Scouts of America
-
-**Publication Date:** 2016
-
-**ISBN:** 978-0-8395-3309-2 0-8395-3309-8
+Outlines requirements for pursuing a merit badge in wood carving.

@@ -1,89 +1,95 @@
-<div class="list-item h-entry">
+{% set header_image = page.header.header_image|defined(true) %}
+{% set header_image_width  = page.header.header_image_width|defined(900) %}
+{% set header_image_height = page.header.header_image_height|defined(300) %}
+{% set header_image_file = page.header.header_image_file %}
 
-    {% set header_image = page.header.header_image|defined(true) %}
-    {% set header_image_width  = page.header.header_image_width|defined(900) %}
-    {% set header_image_height = page.header.header_image_height|defined(300) %}
-    {% set header_image_file = page.header.header_image_file %}
+<div class="columns">
+	<div class="column is-one-third ">
+		<figure class="image" >
+		<img src="{{page.header.cover}}" style="object-fit: contain; width: 100%;">
+		</figure>
+	</div>
+	<div class="column is-two-thirds ">
+		<h1 class="title">{{page.title}}</h1>
+		<h2 class="subtitle is-4">By
+			{{page.taxonomy.author[0]}}</h2>
 
-    <div class="list-blog-header">
-        <span class="list-blog-date">
-            <!--<time class="dt-published" datetime="{{ page.date|date("c") }}">
-                <span>{{ page.date|date("d") }}</span>
-                <em>{{ page.date|date("M") }}</em>
-            </time>-->
-        </span>
-        {% if page.header.link %}
-            <h4 class="p-name">
-                {% if page.header.continue_link is not sameas(false) %}
-                <a href="{{ page.url }}"><i class="fa fa-angle-double-right u-url"></i></a>
-                {% endif %}
-                <a href="{{ page.header.link }}" class="u-url">{{ page.title }}</a>
-            </h4>
-        {% else %}
-            <h4 class="p-name"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></h4>
-        {% endif %}
+		<article class="message is-dark">
+			<div class="message-body">
 
-        {% if page.taxonomy.tag %}
-        <span class="tags">
-            {% for tag in page.taxonomy.tag %}
-            <a href="{{ blog.url|rtrim('/') }}/tag{{ config.system.param_sep }}{{ tag }}" class="p-category">{{ tag }}</a>
-            {% endfor %}
-        </span>
-        {% endif %}
-        {% if header_image %}
-            {% if header_image_file %}
-                {% set header_image_media = page.media.images[header_image_file] %}
-            {% else %}
-                {% set header_image_media = page.media.images|first %}
-            {% endif %}
-            {{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
-        {% endif %}
+				<div class="tags">
 
-    </div>
+					{% if page.taxonomy.tag|length == 1 %}
+					<a href="/books/tag:lesson">
+						<span class="tag is-info">Contains lesson plans</span>
+						</a>
+					{% endif %}
 
-    <div class="list-blog-padding">
+					{% for item in page.taxonomy.subjects %}
+						<a href="/books/subjects:{{item}}">
+							<span class="tag is-success">{{item}}</span>
+						</a>
+					{% endfor %}
 
-    {% if page.header.continue_link is sameas(false) %}
-        <div class="e-content">        
-            {{ page.content }}
-        </div>
-        {% if not truncate %}
-        {% set show_prev_next = true %}
-        {% endif %}
-    {% elseif truncate and page.summary != page.content %}
-        <div class="p-summary e-content">
-            {{ page.summary }}
-            <p><a href="{{ page.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
-        </div>
-    {% elseif truncate %}
-        <div class="p-summary e-content">
-            {{ page.content }}
-            <p><a href="{{ page.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
-        </div>
-    {% else %}
-        <div class="e-content">
-            {{ page.content }}
-        </div>
+					{% for item in page.taxonomy.audience %}
+						<a href="/books/audience:{{item}}">
+							<span class="tag is-warning">{{item}}</span>
+						</a>
+					{% endfor %}
 
-        {% if config.plugins.comments.enabled %}
-            {% include 'partials/comments.html.twig' %}
-        {% endif %}
+					{% for item in page.taxonomy.expertise %}
+						<a href="/books/expertise:{{item}}">
+							<span class="tag is-danger">{{item}}</span>
+						</a>
+					{% endfor %}
 
-        {% set show_prev_next = true %}
-    {% endif %}
+				</div>
 
-    {% if show_prev_next %}
 
-        <p class="prev-next">
-            {% if not page.isFirst %}
-                <a class="button" href="{{ page.nextSibling.url }}"><i class="fa fa-chevron-left"></i> {{ 'BLOG.ITEM.NEXT_POST'|t }}</a>
-            {% endif %}
+				<div class="columns is-multiline">
+					<div class="column is-half">
+						<strong>Publication Date:</strong>
+						{{page.taxonomy.pubdate[0]}}
+					</div>
+					<div class="column is-half">
+						<strong>ISBN:</strong>
+						{{page.taxonomy.isbn[0]}}
+					</div>
+				</columns>
+			</div>
+		</article>
 
-            {% if not page.isLast %}
-                <a class="button" href="{{ page.prevSibling.url }}">{{ 'BLOG.ITEM.PREV_POST'|t }} <i class="fa fa-chevron-right"></i></a>
-            {% endif %}
-        </p>
-    {% endif %}
 
-    </div>
+		<p class="is-italic is-size-5">
+			{{page.content}}
+		</p>
+
+
+		<div class="buttons">
+			{% if page.header.amazon != 'nil' %}
+				<a href="{{page.header.amazon}}">
+					<button class="button is-link is-outlined">
+						Buy on Amazon
+					</button>
+				</a>
+			{% endif %}
+
+			{% if page.header.worldcat != 'nil' %}
+				<a href="{{page.header.worldcat}}">
+					<button class="button is-link is-outlined ">
+						See on Worldcat
+					</button>
+				</a>
+			{% endif %}
+
+			{% if page.header.google != 'nil' %}
+				<a href="{{page.header.google}}">
+					<button class="button is-link is-outlined ">
+						See on Google Books
+					</button>
+				</a>
+			{% endif %}
+
+		</div>
+	</div>
 </div>

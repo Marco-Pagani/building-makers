@@ -1,40 +1,41 @@
 {% embed 'partials/base.html.twig' %}
 
-{% set collection = page.collection() %}
+	{% set collection = page.collection() %}
 
-{% block content %}
-{% set blog_image = page.media.images|first.grayscale().contrast(20).brightness(-100).colorize(-35,81,122) %}
+	{% block content %}
+		{% set blog_image = page.media.images|first.grayscale().contrast(20).brightness(-100).colorize(-35,81,122) %}
+		<section id="body">
+			{% if blog_image %}
+				<div class="flush-top blog-header blog-header-image" style="background-image: url({{ blog_image.url }});">
+				{% else %}
+					<div class="blog-header">
+					{% endif %}
+					{{ page.content }}
+				</div>
 
-{% if blog_image %}
-<div class="flush-top blog-header blog-header-image" style="background-image: url({{ blog_image.url }});">
-    {% else %}
-    <div class="blog-header">
-        {% endif %}
-        {{ page.content }}
-    </div>
+				{% if config.plugins.breadcrumbs.enabled %}
+					{% include 'partials/breadcrumbs.html.twig' %}
+				{% endif %}
+				<div class="columns">
+					<div class="column is-8">
+						<div class="columns is-multiline">
+							{% for child in collection %}
+								<div id="listing" class="column is-one-third">
+									{% include 'partials/book_cover.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
+								</div>
+							{% endfor %}
+						</div>
+						{% if config.plugins.pagination.enabled and collection.params.pagination %}
+							{% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
+						{% endif %}
+					</div>
+					<div class="column">
+						<div id="sidebar" class="block">
+							{% include 'partials/sidebar.html.twig' with {'blog':page} %}
+						</div>
+					</div>
+				</div>
+			</section>
+		{% endblock %}
 
-    {% if config.plugins.breadcrumbs.enabled %}
-    {% include 'partials/breadcrumbs.html.twig' %}
-    {% endif %}
-    <div class="columns">
-        <div class="column is-8">
-            <div class="columns is-multiline">
-                {% for child in collection %}
-                <div id="listing" class="column is-one-third">
-                    {% include 'partials/book_cover.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
-                </div>
-                {% endfor %}
-            </div>
-            {% if config.plugins.pagination.enabled and collection.params.pagination %}
-            {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
-            {% endif %}
-        </div>
-        <div class="column">
-            <div id="sidebar" class="block">
-                {% include 'partials/sidebar.html.twig' with {'blog':page} %}
-            </div>
-        </div>
-    </div>
-    {% endblock %}
-
-    {% endembed %}
+	{% endembed %}

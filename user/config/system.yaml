@@ -56,6 +56,12 @@ pages:
     special_chars:
       '>': gt
       '<': lt
+    valid_link_attributes:
+      - rel
+      - target
+      - id
+      - class
+      - classes
   types:
     - html
     - htm

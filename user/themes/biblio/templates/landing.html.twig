@@ -1,18 +1,25 @@
 {% embed 'partials/base.html.twig' %}
 
-{% block content %}
-	 <section class="hero is-info is-medium is-bold">
-            <div class="hero-body">
-                <div class="container has-text-centered">
-                    <h1 class="title">
-                    The new standard in &lt;insert industry here&gt;
-                    </h1>
-                    <h2 class="subtitle">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </h2>
-                </div>
-            </div>
-        </section>
-	{{ page.content }}
-{% endblock %}
+	{% block content %}
+		<section class="hero is-info is-large is-bold">
+			<div class="hero-body">
+				<div class="container">
+					<h1 class="title">
+						An annotated bibliography of maker resources for libraries, schools, and museums
+					</h1>
+					<h2 class="subtitle">
+						Find books, papers, and articles to help your future creators learn new skills
+					</h2>
+				</div>
+				<div class="container">
+					<a href='/books' class="button is-primary is-inverted">
+						<span class="icon">
+							<i class="fa fa-book"></i>
+						</span>
+						<span>Browse the collection</span>
+					</a>
+				</div>
+			</div>
+		</section>
+	{% endblock %}
 {% endembed %}

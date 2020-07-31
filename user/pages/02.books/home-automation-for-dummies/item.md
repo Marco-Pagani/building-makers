@@ -1,14 +1,15 @@
 ---
-title: Home Automation For Dummies.
+title: Home Automation For Dummies
 taxonomy:
-	author: Dwight; ProQuest (Firm),Spivey
+	author: [Dwight Spivey]
 	pubdate: 2015
-	audience: 
-	expertise: 
+	isbn: 9781118949269
+	subjects: [Computers]
+	audience: []
+	expertise: []
+cover: http://books.google.com/books/content?id=PwthBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+amazon: nil
+worldcat: nil
+google: https://books.google.com/books/about/Home_Automation_For_Dummies.html?hl=&id=PwthBgAAQBAJ
 ---
-## Home Automation For Dummies.
-### By Dwight; ProQuest (Firm),Spivey
-
-**Publication Date:** 2015
-
-**ISBN:** 978-1-118-94926-9
+Ready to control you house with your smartphone or tablet? Spivey shows you how to control thermostats, home security systems, and much more! Best of all, with these plain-English instructions, you can do it yourself!

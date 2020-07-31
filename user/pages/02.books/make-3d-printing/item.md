@@ -1,14 +1,15 @@
 ---
-title: Make : 3D printing
+title: Make: 3D Printing
 taxonomy:
-	author: Brian,Anna Kaziunas; Jepson,France
-	pubdate: 2014
-	audience: 
-	expertise: 
+	author: [Anna Kaziunas France]
+	pubdate: 2013
+	isbn: 1457182939
+	subjects: [Computers]
+	audience: []
+	expertise: []
+cover: http://books.google.com/books/content?id=K5MlnQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+amazon: nil
+worldcat: nil
+google: https://books.google.com/books/about/Make.html?hl=&id=K5MlnQEACAAJ
 ---
-## Make : 3D printing
-### By Brian,Anna Kaziunas; Jepson,France
-
-**Publication Date:** 2014
-
-**ISBN:** 1-4571-8293-9
+Provides a guide to three-dimensional printers, covering such topics as how to choose the right printer, finding the appropriate software, and includes a showcase of printed projects.
