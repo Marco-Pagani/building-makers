@@ -1,47 +1,26 @@
-<!--div class="list-item h-entry"-->
-
-{% set header_image = page.header.header_image|defined(true) %}
-{% set header_image_width  = page.header.header_image_width|defined(260) %}
-{% set header_image_height = page.header.header_image_height|defined(390) %}
-{% set header_image_file = page.header.header_image_file %}
 <a href="{{ page.url }}">
-	<div class="card" style="height: 100%">
-		<div class="card-image">
-			<!-- BOOK COVER -->
-			{#
-						{% if header_image %}
-							{% if header_image_file %}
-								{% set header_image_media = page.media.images[header_image_file] %}
-							{% else %}
-								{% if page.media.images %}
-									{% set header_image_media = page.media.images|first %}
-								{% else %}
-									{% set header_image_media =  media['user://pages/images/placeholder.png'] %}
-								{% endif %}
-							{% endif %}
-							{{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
-						{% endif %}
-						 #}
-				{% if page.header.cover != nil %}
-			<img src="{{page.header.cover}}" style=" object-fit: cover; width: 100%;"> 
+	<div class="card" >
+		<div class="card-image" style=" display: flex;align-items: center;justify-content: center; height: 300px;">
+			{% if page.header.cover != nil %}
+				<img src="{{page.header.cover}}" style=" width:100%;    height:100%;    object-fit: cover;    overflow: hidden;">
 			{% endif %}
 		</div>
 		<div
-			class="card-content">
+			class="card-content" style="height: 200px">
 			<!-- TITLE -->
-			<p class="title is-5 has-text-weight-semibold">{{ page.title }}</p>
+			<p class="title is-5 has-text-weight-semibold">{{ explode(":", page.title)[0] }}</p>
 			<p class="subtitle is-6 has-text-weight-semibold">{{ page.taxonomy.author[0] }}</p>
+		</div>
 
-			<!-- TAGS -->
-			{% if page.taxonomy.tag %}
+		<!-- TAGS -->
+		{% if page.taxonomy.tag %}
+			<footer class="card-footer">
 				<span class="tags">
 					{% for tag in page.taxonomy.tag %}
-						<a href="{{ blog.url|rtrim('/') }}/tag{{ config.system.param_sep }}{{ tag }}" class="p-category">{{ tag }}</a>
+						<a href="{{ blog.url|rtrim('/') }}/tag{{ config.system.param_sep }}{{ tag }}" class="">{{ tag }}</a>
 					{% endfor %}
 				</span>
-			{% endif %}
-		</div>
+			</footer>
+		{% endif %}
 	</div>
 </a>
-
-<!--/div-->
