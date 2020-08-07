@@ -1,12 +1,33 @@
 {% set feed_url = blog.url == '/' or blog.url == base_url_relative ? (base_url_relative~'/'~blog.slug) : blog.url %}
 {% set new_base_url = blog.url == '/' ? '' : blog.url %}
 
+{% import 'partials/cascade-filters.html.twig' as f %}
+
 {% if config.plugins.simplesearch.enabled %}
 <div class="sidebar-content">
     <h4>{{ 'SIDEBAR.SIMPLE_SEARCH.HEADLINE'|t }}</h4>
     {% include 'partials/simplesearch_searchbox.html.twig' %}
 </div>
 {% endif %}
+
+{% set taxlist = cascadeFilters.get() %} {# get texonomy list #}
+	{% set queries = uri.query(null, true) %} {# get queries as Array #}
+	<a href="{{ page.url }}" class="button">Clean all filters </a>
+	{% if taxlist %}
+		{% for key, values in taxlist %}
+			<p>
+				{{ key }}
+			</p>
+			<ul class="is-clearfix">
+				{% for tax in values|keys %}
+					<li style="float: left; margin: 5px">
+						{{ f.genQueryUrl(queries|sort,key,tax, page.url, cascadeFilters) }}
+					</li>
+				{% endfor %}
+			</ul>
+		{% endfor %}
+	{% endif %}
+
 {% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
     <h4>{{ 'SIDEBAR.RELATED_POSTS.HEADLINE'|t }}</h4>
     {% include 'partials/relatedpages.html.twig' %}

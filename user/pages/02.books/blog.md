@@ -10,10 +10,17 @@ content:
         by: title
         dir: asc
     pagination: true
-    limit: 12
+    limit: 15
 feed:
-    limit: 12
+    limit: 15
 pagination: true
+
+simplesearch:
+    process: false
+    route: @self/f
+    filters:
+        - @self
+    filter_combinator: and
 ---
 
 # Books
