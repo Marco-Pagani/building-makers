@@ -4,16 +4,11 @@
 {% set header_image_file = page.header.header_image_file %}
 
 <div class="columns">
-	<div class="column is-one-third ">
+	<div class="column is-4 ">
 		<figure class="image" >
-		<img src="{{page.header.cover}}" style="object-fit: contain; width: 100%;">
+		<img src="{{page.header.cover}}" style="object-fit: contain;max-width:400px;width:100%">
 		</figure>
-	</div>
-	<div class="column is-two-thirds ">
-		<h1 class="title">{{page.title}}</h1>
-		<h2 class="subtitle is-4">By
-			{{page.taxonomy.author[0]}}</h2>
-
+		
 		<article class="message is-dark">
 			<div class="message-body">
 
@@ -59,11 +54,11 @@
 			</div>
 		</article>
 
-
-		<p class="is-italic is-size-5">
-			{{page.content}}
-		</p>
-
+	</div>
+	<div class="column is-one-half ">
+		<h1 class="title">{{page.title}}</h1>
+		<h2 class="subtitle is-4">By
+			{{page.taxonomy.author[0]}}</h2>
 
 		<div class="buttons">
 			{% if page.header.amazon != 'nil' %}
@@ -91,5 +86,11 @@
 			{% endif %}
 
 		</div>
+
+
+		<p class="is-italic is-size-5">
+			{{page.content}}
+		</p>
+
 	</div>
 </div>

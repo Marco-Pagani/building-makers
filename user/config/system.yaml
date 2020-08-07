@@ -152,11 +152,11 @@ debugger:
     close_connection: true
 images:
   default_image_quality: 85
-  cache_all: false
+  cache_all: true
   cache_perms: '0755'
   debug: false
   auto_fix_orientation: false
-  seofriendly: false
+  seofriendly: true
 media:
   enable_media_timestamp: false
   unsupported_inline_types: null
@@ -167,7 +167,7 @@ session:
   enabled: true
   initialize: true
   timeout: 1800
-  name: grav-site
+  name: building-makers
   uniqueness: path
   secure: false
   httponly: true
