@@ -10,14 +10,24 @@
     <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
-    {% block stylesheets %}
-        {% do assets.addCss('theme://css/pure-0.5.0/grids-min.css', 103) %}
-        {% do assets.addCss('theme://css-compiled/nucleus.css', 102) %}
-        {% do assets.addCss('theme://css-compiled/template.css', 101) %}
-        {% do assets.addCss('theme://css/custom.css', 100) %}
-        {% do assets.addCss('theme://css/font-awesome.min.css', 100) %}
-        {% do assets.addCss('theme://css/slidebars.min.css') %}
-        {% do assets.addCss('theme://css/bulma.min.css', 104) %}
+			{% block stylesheets %}
+				{#
+												{% do assets.addCss('theme://css/pure-0.5.0/grids-min.css', 103) %}
+												{% do assets.addCss('theme://css-compiled/nucleus.css', 102) %}
+												{% do assets.addCss('theme://css-compiled/template.css', 101) %}
+												{% do assets.addCss('theme://css/custom.css', 100) %}
+												#}
+				{% do assets.addCss('theme://css/font-awesome.min.css', 100) %}
+				{% do assets.addCss('theme://css/slidebars.min.css') %}
+				{% do assets.addCss('theme://css/bulma.min.css', 104) %}
+				{% if browser.getBrowser == 'msie' and browser.getVersion == 10 %}
+					{% do assets.addCss('theme://css/nucleus-ie10.css') %}
+				{% endif %}
+				{% if browser.getBrowser == 'msie' and browser.getVersion >= 8 and browser.getVersion <= 9 %}
+					{% do assets.addCss('theme://css/nucleus-ie9.css') %}
+					{% do assets.addJs('theme://js/html5shiv-printshiv.min.js') %}
+				{% endif %}
+			{% endblock %}
 
         {% if browser.getBrowser == 'msie' and browser.getVersion == 10 %}
             {% do assets.addCss('theme://css/nucleus-ie10.css') %}
@@ -35,10 +45,15 @@
         {% do assets.addJs('theme://js/slidebars.min.js') %}
     {% endblock %}
 
-    {% block assets deferred %}
-        {{ assets.css()|raw }}
-        {{ assets.js()|raw }}
-    {% endblock %}
+		{% endblock head %}
+	</head>
+	<body id="top" class="{{ page.header.body_classes }}">
+		<div id="sb-site">
+			{% block header %}
+				{% block header_navigation %}
+					{% include 'partials/navigation.html.twig' %}
+				{% endblock %}
+			{% endblock %}
 
 {% endblock head %}
 </head>
@@ -64,38 +79,39 @@
 
         {% block showcase %}{% endblock %}
 
-        {% block body %}
-            {% block content %}{% endblock %}
-        {% endblock %}
-
-        {% block footer %}
-        <footer id="footer">
-            <div class="totop">
-                <span><a href="#" id="toTop"><i class="fa fa-arrow-up"></i></a></span>
-            </div>
-            <p><b>Building Makers</b> is a project of  <a href="https://www.ufl.edu/">The University of Florida</a>.<br>This site was designed and developed with <a href="http://getgrav.org">Grav</a> by <a href="http://pagani.io">Marco Pagani</a>.</p>
-        </footer>
-        {% endblock %}
-    </div>
-    {% block sidebar_navigation %}
-        <div class="sb-slidebar sb-left sb-width-thin">
-            <div id="panel">
-            {% include 'partials/navigation.html.twig' %}
-            </div>
-        </div>
-    {% endblock %}
-    {% block bottom %}
-         <script>
-        $(function () {
-            $(document).ready(function() {
-              $.slidebars({
-                hideControlClasses: true,
-                scrollLock: true
-              });
-            });
-        });
-        </script>
-        {{ assets.js('bottom')|raw }}
-    {% endblock %}
-</body>
+			{% block footer %}
+				<footer class="footer">
+					<div class="content has-text-centered">
+						<p>
+							<b>Building Makers</b>
+							is a project of
+							<a href="https://www.ufl.edu/">The University of Florida</a>.
+							<br>This site was designed and developed with
+							<a href="http://getgrav.org">Grav</a>
+							by
+							<a href="http://pagani.io">Marco Pagani</a>.
+							<br><a>v0.2.0</a>
+						</p>
+					</div>
+				</footer>
+			{% endblock %}
+		</div>
+		{% block sidebar_navigation %}
+			<div class="sb-slidebar sb-left sb-width-thin">
+				<div id="panel">
+					{% include 'partials/navigation.html.twig' %}
+				</div>
+			</div>
+		{% endblock %}
+		{% block bottom %}
+			<script>
+				$(function () {
+$(document).ready(function () {
+$.slidebars({hideControlClasses: true, scrollLock: true});
+});
+});
+			</script>
+			{{ assets.js('bottom')|raw }}
+		{% endblock %}
+	</body>
 </html>

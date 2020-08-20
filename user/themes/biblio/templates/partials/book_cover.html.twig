@@ -5,32 +5,22 @@
 {% set header_image_height = page.header.header_image_height|defined(390) %}
 {% set header_image_file = page.header.header_image_file %}
 <a href="{{ page.url }}">
-	<div class="card" style="height: 100%">
-		<div class="card-image">
-			<!-- BOOK COVER -->
-			{#
-						{% if header_image %}
-							{% if header_image_file %}
-								{% set header_image_media = page.media.images[header_image_file] %}
-							{% else %}
-								{% if page.media.images %}
-									{% set header_image_media = page.media.images|first %}
-								{% else %}
-									{% set header_image_media =  media['user://pages/images/placeholder.png'] %}
-								{% endif %}
-							{% endif %}
-							{{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
-						{% endif %}
-						 #}
-				{% if page.header.cover != nil %}
-			<img src="{{page.header.cover}}" style=" object-fit: cover; width: 100%;"> 
+	<div class="card" >
+		<div class="card-image" style=" display: flex;align-items: center;justify-content: center; height: 300px;">
+			{% if page.header.thumb != nil %}
+				<img src="{{page.header.thumb}}" style=" width:100%;    height:100%;    object-fit: cover;    overflow: hidden;">
 			{% endif %}
 		</div>
 		<div
 			class="card-content">
 			<!-- TITLE -->
-			<p class="title is-5 has-text-weight-semibold">{{ page.title }}</p>
+			<p class="title is-5 has-text-weight-semibold">{{ explode(":", page.title)[0] }}</p>
+			{% if page.taxonomy.author|length > 1 %}
+			<p class="subtitle is-6 has-text-weight-semibold">{{ page.taxonomy.author[0] }} +{{page.taxonomy.author|length - 1}}</p>
+			{% else %}
 			<p class="subtitle is-6 has-text-weight-semibold">{{ page.taxonomy.author[0] }}</p>
+			{% endif %}
+		</div>
 
 			<!-- TAGS -->
 			{% if page.taxonomy.tag %}
