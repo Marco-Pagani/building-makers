@@ -1,15 +1,19 @@
 <a href="{{ page.url }}">
 	<div class="card" >
 		<div class="card-image" style=" display: flex;align-items: center;justify-content: center; height: 300px;">
-			{% if page.header.cover != nil %}
-				<img src="{{page.header.cover}}" style=" width:100%;    height:100%;    object-fit: cover;    overflow: hidden;">
+			{% if page.header.thumb != nil %}
+				<img src="{{page.header.thumb}}" style=" width:100%;    height:100%;    object-fit: cover;    overflow: hidden;">
 			{% endif %}
 		</div>
 		<div
 			class="card-content" style="height: 200px">
 			<!-- TITLE -->
 			<p class="title is-5 has-text-weight-semibold">{{ explode(":", page.title)[0] }}</p>
+			{% if page.taxonomy.author|length > 1 %}
+			<p class="subtitle is-6 has-text-weight-semibold">{{ page.taxonomy.author[0] }} +{{page.taxonomy.author|length - 1}}</p>
+			{% else %}
 			<p class="subtitle is-6 has-text-weight-semibold">{{ page.taxonomy.author[0] }}</p>
+			{% endif %}
 		</div>
 
 		<!-- TAGS -->

@@ -1,0 +1,82 @@
+{% macro loop(page) %}
+	{% for p in page.children.visible %}
+		{% set current_page = (p.active or p.activeChild) ? 'active' : '' %}
+		{% if p.children.visible.count > 0 %}
+			<li class="has-children {{ current_page }}">
+				<a href="{{ p.url }}">
+					{% if p.header.icon %}
+						<i class="fa fa-{{ p.header.icon }}"></i>
+					{% endif %}
+					{{ p.menu }}
+					<span></span>
+				</a>
+				<ul>
+					{{ _self.loop(p) }}
+				</ul>
+			</li>
+		{% else %}
+			<li class="{{ current_page }}">
+				<a href="{{ p.url }}">
+					{% if p.header.icon %}
+						<i class="fa fa-{{ p.header.icon }}"></i>
+					{% endif %}
+					{{ p.menu }}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+{% endmacro %}
+{#
+<ul class="navigation">
+    {% if theme_config.dropdown.enabled %}
+        {{ _self.loop(pages) }}
+    {% else %}
+        {% for page in pages.children.visible %}
+            {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
+            <li class="{{ current_page }}">
+                <a href="{{ page.url }}">
+                    {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
+                    {{ page.menu }}
+                </a>
+            </li>
+        {% endfor %}
+    {% endif %}
+    {% for mitem in site.menu %}
+        <li>
+            <a href="{{ mitem.url }}">
+                {% if mitem.icon %}<i class="fa fa-{{ mitem.icon }}"></i>{% endif %}
+                {{ mitem.text }}
+            </a>
+        </li>
+    {% endfor %}
+    {% if config.plugins.login.enabled and grav.user.username %}
+        <li><i class="fa fa-lock"></i> {% include 'partials/login-status.html.twig' %}</li>
+    {% endif %}
+</ul>
+    #}
+
+<nav class="navbar is-light" role="navigation" aria-label="main navigation" style="min-height: 4.25rem;">
+	<div class="navbar-brand">
+		<a class="navbar-item" href="/" style="max-height: 100%;">
+			<img src="{{url('theme://images/logo/BM_Logo.png')}}" style="max-height: 100%;">
+		</a>
+
+		<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" style="height: auto;">
+			<span aria-hidden="true"></span>
+			<span aria-hidden="true"></span>
+			<span aria-hidden="true"></span>
+		</a>
+	</div>
+
+	<div id="navbarMain" class="navbar-menu">
+
+		<div class="navbar-end mr-5">
+			{% for page in pages.children.visible %}
+				{% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
+				<a class="navbar-item" href="{{ page.url }}">
+					{{ page.menu }}
+				</a>
+			{% endfor %}
+		</div>
+	</div>
+</nav>

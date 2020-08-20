@@ -2,95 +2,103 @@
 {% set header_image_width  = page.header.header_image_width|defined(900) %}
 {% set header_image_height = page.header.header_image_height|defined(300) %}
 {% set header_image_file = page.header.header_image_file %}
+<section class="section">
+	<div class="columns">
+		<div class="column is-4 ">
+			<figure class="image">
+				<img src="{{page.header.cover}}" style="object-fit: contain;max-width:400px;width:100%">
+			</figure>
 
-<div class="columns">
-	<div class="column is-4 ">
-		<figure class="image" >
-		<img src="{{page.header.cover}}" style="object-fit: contain;max-width:400px;width:100%">
-		</figure>
-		
-		<article class="message is-dark">
-			<div class="message-body">
+			<article class="message is-dark">
+				<div class="message-body">
 
-				<div class="tags">
+					<div class="tags">
 
-					{% if page.taxonomy.tag|length == 1 %}
-					<a href="/books/tag:lesson">
-						<span class="tag is-info">Contains lesson plans</span>
-						</a>
-					{% endif %}
+						{% if page.taxonomy.tag|length == 1 %}
+							<a href="/books/tag:lesson">
+								<span class="tag is-info">Contains lesson plans</span>
+							</a>
+						{% endif %}
 
-					{% for item in page.taxonomy.subjects %}
-						<a href="/books/subjects:{{item}}">
-							<span class="tag is-success">{{item}}</span>
-						</a>
-					{% endfor %}
+						{% for item in page.taxonomy.subjects %}
+							<a href="/books/subjects:{{item}}">
+								<span class="tag is-success">{{item}}</span>
+							</a>
+						{% endfor %}
 
-					{% for item in page.taxonomy.audience %}
-						<a href="/books/audience:{{item}}">
-							<span class="tag is-warning">{{item}}</span>
-						</a>
-					{% endfor %}
+						{% for item in page.taxonomy.audience %}
+							<a href="/books/audience:{{item}}">
+								<span class="tag is-warning">{{item}}</span>
+							</a>
+						{% endfor %}
 
-					{% for item in page.taxonomy.expertise %}
-						<a href="/books/expertise:{{item}}">
-							<span class="tag is-danger">{{item}}</span>
-						</a>
-					{% endfor %}
+						{% for item in page.taxonomy.expertise %}
+							<a href="/books/expertise:{{item}}">
+								<span class="tag is-danger">{{item}}</span>
+							</a>
+						{% endfor %}
 
+					</div>
+
+
+					<div class="columns is-multiline">
+						<div class="column is-half">
+							<strong>Publication Date:</strong>
+							{{page.taxonomy.pubdate[0]}}
+						</div>
+						<div class="column is-half">
+							<strong>ISBN:</strong>
+							{{page.taxonomy.isbn[0]}}
+						</div>
+					</columns>
 				</div>
-
-
-				<div class="columns is-multiline">
-					<div class="column is-half">
-						<strong>Publication Date:</strong>
-						{{page.taxonomy.pubdate[0]}}
-					</div>
-					<div class="column is-half">
-						<strong>ISBN:</strong>
-						{{page.taxonomy.isbn[0]}}
-					</div>
-				</columns>
-			</div>
-		</article>
-
-	</div>
-	<div class="column is-one-half ">
-		<h1 class="title">{{page.title}}</h1>
-		<h2 class="subtitle is-4">By
-			{{page.taxonomy.author[0]}}</h2>
-
-		<div class="buttons">
-			{% if page.header.amazon != 'nil' %}
-				<a href="{{page.header.amazon}}">
-					<button class="button is-link is-outlined">
-						Buy on Amazon
-					</button>
-				</a>
-			{% endif %}
-
-			{% if page.header.worldcat != 'nil' %}
-				<a href="{{page.header.worldcat}}">
-					<button class="button is-link is-outlined ">
-						See on Worldcat
-					</button>
-				</a>
-			{% endif %}
-
-			{% if page.header.google != 'nil' %}
-				<a href="{{page.header.google}}">
-					<button class="button is-link is-outlined ">
-						See on Google Books
-					</button>
-				</a>
-			{% endif %}
+			</article>
 
 		</div>
+		<div class="column is-one-half ">
+			<h1 class="title">{{page.title}}</h1>
+			<h2 class="subtitle is-4">By
+				{% for author in page.taxonomy.author %}
+					{{author}}
+					{% if (not loop.last) %}
+					, 
+					{% endif %}
+				{% endfor %}
+
+					</h2>
+
+					<div class="buttons">
+						{% if page.header.amazon != 'nil' %}
+							<a href="{{page.header.amazon}}">
+								<button class="button is-link is-outlined">
+									Buy on Amazon
+								</button>
+							</a>
+						{% endif %}
+
+						{% if page.header.worldcat != 'nil' %}
+							<a href="{{page.header.worldcat}}">
+								<button class="button is-link is-outlined ">
+									See on Worldcat
+								</button>
+							</a>
+						{% endif %}
+
+						{% if page.header.google != 'nil' %}
+							<a href="{{page.header.google}}">
+								<button class="button is-link is-outlined ">
+									See on Google Books
+								</button>
+							</a>
+						{% endif %}
+
+					</div>
 
 
-		<p class="is-italic is-size-5">
-			{{page.content}}
-		</p>
+					<p class="is-italic is-size-5">
+						{{page.content}}
+					</p>
 
-	</div>
-</div>
+				</div>
+			</div>
+		</section>
