@@ -10,7 +10,7 @@
 			<!-- TITLE -->
 			<p class="title is-5 has-text-weight-semibold">{{ explode(":", page.title)[0] }}</p>
 			{% if page.taxonomy.author|length > 1 %}
-			<p class="subtitle is-6 has-text-weight-semibold">{{ page.taxonomy.author[0] }} +{{page.taxonomy.author|length - 1}} other</p>
+			<p class="subtitle is-6 has-text-weight-semibold">{{ page.taxonomy.author[0] }} and {{page.taxonomy.author|length - 1}} other</p>
 			{% else %}
 			<p class="subtitle is-6 has-text-weight-semibold">{{ page.taxonomy.author[0] }}</p>
 			{% endif %}

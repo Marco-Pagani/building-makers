@@ -42,10 +42,12 @@
 
 
 					<div class="columns is-multiline">
+					{% if page.header.pagecount != 0 %}
 						<div class="column is-half">
-							<strong>Publication Date:</strong>
-							{{page.taxonomy.pubdate[0]}}
+							<strong>Page Count:</strong>
+							{{page.header.pagecount}}
 						</div>
+						{% endif %}
 						<div class="column is-half">
 							<strong>ISBN:</strong>
 							{{page.taxonomy.isbn[0]}}
@@ -57,12 +59,14 @@
 		</div>
 		<div class="column is-one-half ">
 			<h1 class="title">{{page.title}}</h1>
+			<h2 class="subtitle is-4">{{page.taxonomy.pubdate[0]}}, {{page.header.publisher}}</h2>
 			<h2 class="subtitle is-4">By
 				{% for author in page.taxonomy.author %}
 					{{author}}{% if (not loop.last) %}, {% endif %}
 				{% endfor %}
 
 					</h2>
+					
 
 					<div class="buttons">
 						{% if page.header.amazon != 'nil' %}

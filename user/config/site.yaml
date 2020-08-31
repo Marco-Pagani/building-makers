@@ -4,11 +4,11 @@ author:
   name: 'Sara Gonzalez'
   email: saragonz@ufl.edu
 taxonomies:
-  - author
-  - pubdate
+  - subjects
   - audience
   - expertise
-  - subjects
+  - pubdate
+  - author
   - isbn
 metadata:
   description: 'An online bibliography for maker-related books and websites'
