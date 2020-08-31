@@ -15,26 +15,26 @@
 					<div class="tags">
 
 						{% if page.taxonomy.tag|length == 1 %}
-							<a href="/books/tag:lesson">
-								<span class="tag is-info">Contains lesson plans</span>
+							<a class="tag is-info" href="/books/tag:lesson">
+								Contains lesson plans
 							</a>
 						{% endif %}
 
 						{% for item in page.taxonomy.subjects %}
-							<a href="/books/subjects:{{item}}">
-								<span class="tag is-success">{{item}}</span>
+							<a class="tag is-success" href="/books/subjects:{{item}}">
+								{{item}}
 							</a>
 						{% endfor %}
 
 						{% for item in page.taxonomy.audience %}
-							<a href="/books/audience:{{item}}">
-								<span class="tag is-warning">{{item}}</span>
+							<a class="tag is-warning" href="/books/audience:{{item}}">
+								{{item}}
 							</a>
 						{% endfor %}
 
 						{% for item in page.taxonomy.expertise %}
-							<a href="/books/expertise:{{item}}">
-								<span class="tag is-danger">{{item}}</span>
+							<a class="tag is-danger" href="/books/expertise:{{item}}">
+								{{item}}
 							</a>
 						{% endfor %}
 
@@ -59,36 +59,27 @@
 			<h1 class="title">{{page.title}}</h1>
 			<h2 class="subtitle is-4">By
 				{% for author in page.taxonomy.author %}
-					{{author}}
-					{% if (not loop.last) %}
-					, 
-					{% endif %}
+					{{author}}{% if (not loop.last) %}, {% endif %}
 				{% endfor %}
 
 					</h2>
 
 					<div class="buttons">
 						{% if page.header.amazon != 'nil' %}
-							<a href="{{page.header.amazon}}">
-								<button class="button is-link is-outlined">
+							<a class="button is-link is-outlined" href="{{page.header.amazon}}">
 									Buy on Amazon
-								</button>
 							</a>
 						{% endif %}
 
 						{% if page.header.worldcat != 'nil' %}
-							<a href="{{page.header.worldcat}}">
-								<button class="button is-link is-outlined ">
+							<a class="button is-link is-outlined" href="{{page.header.worldcat}}">
 									See on Worldcat
-								</button>
 							</a>
 						{% endif %}
 
 						{% if page.header.google != 'nil' %}
-							<a href="{{page.header.google}}">
-								<button class="button is-link is-outlined ">
+							<a class="button is-link is-outlined" href="{{page.header.google}}">
 									See on Google Books
-								</button>
 							</a>
 						{% endif %}
 
