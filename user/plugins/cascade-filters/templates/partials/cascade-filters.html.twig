@@ -9,5 +9,5 @@
 	{% endif %}
 	{% set disabled = cascadeFilters.isDisabled((queries))?'disabled':'' %}
 	{% set status = active? (active) : (disabled) %}
-        <a href="{{ url }}/?{{ queries|url_encode }}" type="button" class="button {{ status }}" {{ status }}>{{ tax|capitalize }}</a>
+        <a href="{{ url }}/?{{ queries|url_encode }}" type="button" class="button {{ status }}" >{{ tax }}</a>
 {% endmacro %}

@@ -4,7 +4,7 @@ taxonomy:
 	author: [Sarah Hutt]
 	pubdate: 2017
 	isbn: 9780399542558
-	subjects: [Computer programming]
+	subjects: [Computer Programming]
 	audience: []
 	expertise: []
 cover: http://books.google.com/books/content?id=7-U3DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api

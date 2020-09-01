@@ -12,19 +12,21 @@
 
 {% set taxlist = cascadeFilters.get() %} {# get texonomy list #}
 	{% set queries = uri.query(null, true) %} {# get queries as Array #}
-	<a href="{{ page.url }}" class="button">Clean all filters </a>
+	<a href="{{ page.url }}" class="button">Clear all filters </a>
 	{% if taxlist %}
 		{% for key, values in taxlist %}
 			<p>
-				{{ key }}
+			{% if key == 'pubdate' %}
+			Publication Date
+			{% else %}
+				{{ key|capitalize }}
+				{%endif%}
 			</p>
-			<ul class="is-clearfix">
+			<div class="buttons are-small">
 				{% for tax in values|keys %}
-					<li style="float: left; margin: 5px">
 						{{ f.genQueryUrl(queries|sort,key,tax, page.url, cascadeFilters) }}
-					</li>
 				{% endfor %}
-			</ul>
+			</div>
 		{% endfor %}
 	{% endif %}
 

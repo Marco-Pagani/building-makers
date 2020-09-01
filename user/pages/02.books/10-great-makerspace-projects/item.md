@@ -4,7 +4,7 @@ taxonomy:
 	author: [Kerry Hinton]
 	pubdate: 2017
 	isbn: 1499438508
-	subjects: [Makerspaces (General)]
+	subjects: [Makerspaces]
 	audience: [K-12, Libraries, General]
 	expertise: [Beginner]
 	tag: [lesson plans]

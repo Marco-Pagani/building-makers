@@ -4,7 +4,7 @@ taxonomy:
 	author: [Ellyssa Kroski]
 	pubdate: 2017
 	isbn: 0838915043
-	subjects: [Makerspaces (General), Makerspaces - Operating]
+	subjects: [Makerspaces, Makerspaces - Operating]
 	audience: [Libraries]
 	expertise: [Beginner]
 publisher: American Library Association
