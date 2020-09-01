@@ -1,0 +1,12 @@
+.book-cover-thumb{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.book-cover-full{
+    object-fit:
+    contain;max-width:400px;
+    width:100%
+}
