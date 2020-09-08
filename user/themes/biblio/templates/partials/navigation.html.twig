@@ -71,6 +71,7 @@
 	<div id="navbarMain" class="navbar-menu">
 
 		<div class="navbar-end mr-5">
+			
 			{% for page in pages.children.visible %}
 				{% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
 				<a class="navbar-item" href="{{ page.url }}">
@@ -80,6 +81,7 @@
 			<a class="navbar-item" href="mailto:saragonz@ufl.edu">
 					Contact
 				</a>
+				
 		</div>
 	</div>
 </nav>
