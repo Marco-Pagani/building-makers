@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2012
 	isbn: 1430243597
 	subjects: [Arduinos, Wearables]
-	audience: [K-12, Libraries, College/University, General]
+	audience: [K-12, Libraries, College & University, General]
 	expertise: [Beginner, Intermediate]
 	tag: [lesson plans]
 publisher: Apress

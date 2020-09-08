@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2016
 	isbn: 144225548X
 	subjects: [3D Printing]
-	audience: [K-12, College/University, Libraries, General]
+	audience: [K-12, College & University, Libraries, General]
 	expertise: [Beginner, Intermediate]
 	tag: [lesson plans]
 publisher: Rowman & Littlefield

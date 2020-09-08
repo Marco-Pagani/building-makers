@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2016
 	isbn: 1593276907
 	subjects: [Arduinos]
-	audience: [College/University, Libraries, General]
+	audience: [College & University, Libraries, General]
 	expertise: [Beginner]
 	tag: [lesson plans]
 publisher: No Starch Press

@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2018
 	isbn: 1138280666
 	subjects: [Interior Design]
-	audience: [College/University]
+	audience: [College & University]
 	expertise: [Advanced]
 	tag: [lesson plans]
 publisher: Routledge

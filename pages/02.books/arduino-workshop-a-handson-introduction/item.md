@@ -3,7 +3,7 @@ title: Arduino workshop: a hands-on introduction with 65 projects
 taxonomy:
 	author: John Boxall
 	pubdate: 2013
-	audience: General,College/University,Libraries
+	audience: General,College & University,Libraries
 	expertise: Beginner,Intermediate
 ---
 ## Arduino workshop: a hands-on introduction with 65 projects
@@ -13,7 +13,7 @@ taxonomy:
 
 **Expertise Level:** Beginner,Intermediate
 
-**Intended Audience:** General,College/University,Libraries
+**Intended Audience:** General,College & University,Libraries
 
 **ISBN:** 978-1593274481
 

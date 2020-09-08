@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2016
 	isbn: 1119259703
 	subjects: [Makerspaces - Operating]
-	audience: [Libraries, K-12, College/University]
+	audience: [Libraries, K-12, College & University]
 	expertise: []
 publisher: John Wiley & Sons
 pagecount: 256

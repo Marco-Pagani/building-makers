@@ -3,7 +3,7 @@ title: Maker-centered learning : empowering young people to shape their worlds
 taxonomy:
 	author: Shari,; Tishman,Jennifer Oxman,; Ryan,Jessica,; Ross,Edward P.,Clapp
 	pubdate: 2017
-	audience: Libraries,K-12,College/University
+	audience: Libraries,K-12,College & University
 	expertise: 
 ---
 ## Maker-centered learning : empowering young people to shape their worlds
@@ -12,7 +12,7 @@ This book is dedicated  to answering the leading questions faced by Makers and t
 
 **Publication Date:** 2017
 
-**Intended Audience:** Libraries,K-12,College/University
+**Intended Audience:** Libraries,K-12,College & University
 
 **ISBN:** 978-1-119-25970-1 1-119-25970-3
 

@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2018
 	isbn: 0128498811
 	subjects: [Wearables]
-	audience: [College/University, General]
+	audience: [College & University, General]
 	expertise: [Intermediate, Advanced]
 publisher: Academic Press
 pagecount: 340

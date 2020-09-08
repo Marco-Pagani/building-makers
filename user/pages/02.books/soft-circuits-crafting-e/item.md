@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2014
 	isbn: 0262027844
 	subjects: [Wearables, Sewing, Fiber Arts]
-	audience: [K-12, College/University, General]
+	audience: [K-12, College & University, General]
 	expertise: [Beginner, Intermediate]
 	tag: [lesson plans]
 publisher: MIT Press

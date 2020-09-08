@@ -3,7 +3,7 @@ title: Practical Guide for Librarians: 3D Printing
 taxonomy:
 	author: Sara Russell Gonzalez,Denise Bennett
 	pubdate: 2016
-	audience: K-12,College/University,Libraries,General
+	audience: K-12,College & University,Libraries,General
 	expertise: Beginner,Intermediate
 ---
 ## Practical Guide for Librarians: 3D Printing
@@ -14,7 +14,7 @@ taxonomy:
 
 **Expertise Level:** Beginner,Intermediate
 
-**Intended Audience:** K-12,College/University,Libraries,General
+**Intended Audience:** K-12,College & University,Libraries,General
 
 **ISBN:** 978-1-4422-5548-7
 

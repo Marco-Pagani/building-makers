@@ -3,7 +3,7 @@ title: AutoCAD 2019: 3D Modeling
 taxonomy:
 	author: Munir,Hamad
 	pubdate: 2019
-	audience: College/University,Libraries
+	audience: College & University,Libraries
 	expertise: Intermediate
 ---
 ## AutoCAD 2019: 3D Modeling
@@ -14,7 +14,7 @@ AutoCAD 2019: 3D Modeling covers everything from the basics of AutoCAD like how 
 
 **Expertise Level:** Intermediate
 
-**Intended Audience:** College/University,Libraries
+**Intended Audience:** College & University,Libraries
 
 **ISBN:** 168392178X
 

@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2017
 	isbn: 1138749311
 	subjects: [Wearables]
-	audience: [General, College/University]
+	audience: [General, College & University]
 	expertise: [Intermediate, Advanced]
 publisher: Taylor & Francis Group
 pagecount: 739

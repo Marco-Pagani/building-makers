@@ -3,7 +3,7 @@ title: Arduino wearables
 taxonomy:
 	author: Tony Olsson
 	pubdate: 2012
-	audience: K-12,Libraries,College/University,General
+	audience: K-12,Libraries,College & University,General
 	expertise: Beginner,Intermediate
 ---
 ## Arduino wearables
@@ -14,7 +14,7 @@ UF lib - QA76.592.O47 2012
 
 **Expertise Level:** Beginner,Intermediate
 
-**Intended Audience:** K-12,Libraries,College/University,General
+**Intended Audience:** K-12,Libraries,College & University,General
 
 **ISBN:** 978-1430243595
 

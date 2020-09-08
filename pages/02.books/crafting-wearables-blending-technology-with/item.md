@@ -3,7 +3,7 @@ title: Crafting Wearables: Blending Technology with Fashion
 taxonomy:
 	author: Deren Guler,Madeline Gannon,Kate Sicchio
 	pubdate: 2016
-	audience: College/University,General,Libraries
+	audience: College & University,General,Libraries
 	expertise: Beginner,Intermediate
 ---
 ## Crafting Wearables: Blending Technology with Fashion
@@ -14,7 +14,7 @@ Crafting Wearables begins with the history of the field, then covers current pra
 
 **Expertise Level:** Beginner,Intermediate
 
-**Intended Audience:** College/University,General,Libraries
+**Intended Audience:** College & University,General,Libraries
 
 **ISBN:** 978-1484218075
 

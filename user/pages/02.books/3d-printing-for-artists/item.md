@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2018
 	isbn: 1474248675
 	subjects: [Making Scholarship]
-	audience: [Libraries, College/University]
+	audience: [Libraries, College & University]
 	expertise: [Intermediate]
 publisher: Bloomsbury Academic
 pagecount: 168

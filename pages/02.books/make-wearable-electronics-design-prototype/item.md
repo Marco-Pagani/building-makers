@@ -3,7 +3,7 @@ title: Make: Wearable Electronics: Design, prototype, and wear your own interact
 taxonomy:
 	author: Kate Hartman
 	pubdate: 2014
-	audience: General,College/University,Libraries
+	audience: General,College & University,Libraries
 	expertise: Beginner,Intermediate
 ---
 ## Make: Wearable Electronics: Design, prototype, and wear your own interactive garments
@@ -14,7 +14,7 @@ Make: Wearable Electronics is intended for those with an interest in physical co
 
 **Expertise Level:** Beginner,Intermediate
 
-**Intended Audience:** General,College/University,Libraries
+**Intended Audience:** General,College & University,Libraries
 
 **ISBN:** 978-1449336516
 

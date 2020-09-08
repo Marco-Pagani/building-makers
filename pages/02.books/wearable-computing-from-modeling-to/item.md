@@ -3,7 +3,7 @@ title: Wearable Computing: From Modeling to Implementation of Wearable Systems B
 taxonomy:
 	author: Giancarlo Fortino,Raffaele Gravina,Stefano Galzarano
 	pubdate: 2018
-	audience: College/University,General
+	audience: College & University,General
 	expertise: Advanced
 ---
 ## Wearable Computing: From Modeling to Implementation of Wearable Systems Based on Body Sensor Networks
@@ -13,7 +13,7 @@ taxonomy:
 
 **Expertise Level:** Advanced
 
-**Intended Audience:** College/University,General
+**Intended Audience:** College & University,General
 
 **ISBN:** 978-1118864579
 

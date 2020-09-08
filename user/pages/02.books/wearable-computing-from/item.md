@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2018
 	isbn: 1118864573
 	subjects: []
-	audience: [College/University, General]
+	audience: [College & University, General]
 	expertise: [Advanced]
 publisher: John Wiley & Sons
 pagecount: 256

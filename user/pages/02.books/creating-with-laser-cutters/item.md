@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2016
 	isbn: 1499465041
 	subjects: [Laser Cutting]
-	audience: [College/University, General, Libraries]
+	audience: [College & University, General, Libraries]
 	expertise: [Beginner, Intermediate]
 	tag: [lesson plans]
 publisher: The Rosen Publishing Group Inc

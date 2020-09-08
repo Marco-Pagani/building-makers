@@ -3,7 +3,7 @@ title: Arduino Sketches: Tools and Techniques for Programming Wizardry
 taxonomy:
 	author: James A. Langbridge
 	pubdate: 2015
-	audience: College/University,Libraries
+	audience: College & University,Libraries
 	expertise: Intermediate,Advanced
 ---
 ## Arduino Sketches: Tools and Techniques for Programming Wizardry
@@ -14,7 +14,7 @@ UF Library Catalog - TJ223.P76L36 2015
 
 **Expertise Level:** Intermediate,Advanced
 
-**Intended Audience:** College/University,Libraries
+**Intended Audience:** College & University,Libraries
 
 **ISBN:** 978-1118919606
 

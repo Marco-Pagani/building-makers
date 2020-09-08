@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2013
 	isbn: 0989795608
 	subjects: [Wearables, Sewing]
-	audience: [K-12, College/University, General, Libraries]
+	audience: [K-12, College & University, General, Libraries]
 	expertise: [Beginner, Intermediate]
 	tag: [lesson plans]
 publisher: HLT Press

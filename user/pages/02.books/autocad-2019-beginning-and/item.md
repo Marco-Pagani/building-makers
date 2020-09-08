@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2018
 	isbn: 1683921771
 	subjects: [3D Modeling]
-	audience: [College/University, Libraries]
+	audience: [College & University, Libraries]
 	expertise: [Intermediate]
 publisher: Stylus Publishing LLC
 pagecount: 800

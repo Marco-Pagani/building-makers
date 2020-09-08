@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2016
 	isbn: 3319157612
 	subjects: [Wearables]
-	audience: [General, College/University]
+	audience: [General, College & University]
 	expertise: [Beginner, Intermediate]
 publisher: Springer International Publishing
 pagecount: 110

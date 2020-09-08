@@ -3,7 +3,7 @@ title: Arduino Playground: Geeky Projects for the Experienced Maker
 taxonomy:
 	author: Warren Andrews
 	pubdate: 2017
-	audience: College/University,General,Libraries
+	audience: College & University,General,Libraries
 	expertise: Advanced,Intermediate
 ---
 ## Arduino Playground: Geeky Projects for the Experienced Maker
@@ -14,7 +14,7 @@ UF Library - TJ223.P76
 
 **Expertise Level:** Advanced,Intermediate
 
-**Intended Audience:** College/University,General,Libraries
+**Intended Audience:** College & University,General,Libraries
 
 **ISBN:** 978-1593277444
 

@@ -3,7 +3,7 @@ title: Mobile Technology and Academic Libraries: Innovative Services for Researc
 taxonomy:
 	author: Robin Canuel,Chad Crichton
 	pubdate: 2017
-	audience: Libraries,College/University
+	audience: Libraries,College & University
 	expertise: Intermediate,Advanced
 ---
 ## Mobile Technology and Academic Libraries: Innovative Services for Research and Learning
@@ -13,7 +13,7 @@ taxonomy:
 
 **Expertise Level:** Intermediate,Advanced
 
-**Intended Audience:** Libraries,College/University
+**Intended Audience:** Libraries,College & University
 
 **ISBN:** 978-0838988794
 

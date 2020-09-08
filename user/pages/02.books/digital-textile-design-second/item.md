@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2012
 	isbn: 1780670028
 	subjects: [Fiber Arts]
-	audience: [College/University, General]
+	audience: [College & University, General]
 	expertise: [Beginner, Intermediate]
 	tag: [lesson plans]
 publisher: Laurence King Publishing

@@ -3,7 +3,7 @@ title: 3D printing for artists, designers and makers
 taxonomy:
 	author: Stephen,Hoskins
 	pubdate: 2018
-	audience: Libraries,College/University
+	audience: Libraries,College & University
 	expertise: Intermediate
 ---
 ## 3D printing for artists, designers and makers
@@ -14,7 +14,7 @@ This book dives into the applications of 3D printing and analyzes how people hav
 
 **Expertise Level:** Intermediate
 
-**Intended Audience:** Libraries,College/University
+**Intended Audience:** Libraries,College & University
 
 **ISBN:** 1-4742-4867-5
 

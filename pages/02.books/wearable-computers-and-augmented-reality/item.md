@@ -3,7 +3,7 @@ title: Wearable Computers and Augmented Reality
 taxonomy:
 	author: Woodrow Barfield
 	pubdate: 2016
-	audience: General,College/University
+	audience: General,College & University
 	expertise: Intermediate,Advanced
 ---
 ## Wearable Computers and Augmented Reality
@@ -14,7 +14,7 @@ The text details more of the applications and history of wearables and augmented
 
 **Expertise Level:** Intermediate,Advanced
 
-**Intended Audience:** General,College/University
+**Intended Audience:** General,College & University
 
 **ISBN:** 978-1138749313
 

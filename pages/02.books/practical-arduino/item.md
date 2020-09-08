@@ -3,7 +3,7 @@ title: Practical Arduino
 taxonomy:
 	author: Jonathan Oxer,Hugh Blemings
 	pubdate: 2009
-	audience: College/University,General,Libraries
+	audience: College & University,General,Libraries
 	expertise: Intermediate,Advanced
 ---
 ## Practical Arduino
@@ -14,7 +14,7 @@ UF Library - QA76.76.O63O93 2009
 
 **Expertise Level:** Intermediate,Advanced
 
-**Intended Audience:** College/University,General,Libraries
+**Intended Audience:** College & University,General,Libraries
 
 **ISBN:** 978-1430224778
 

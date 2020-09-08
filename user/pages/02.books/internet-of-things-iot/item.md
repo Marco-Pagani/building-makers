@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2017
 	isbn: 1138035009
 	subjects: [Wearables, Internet of Things]
-	audience: [College/University, General]
+	audience: [College & University, General]
 	expertise: [Intermediate, Advanced]
 publisher: CRC Press
 pagecount: 334

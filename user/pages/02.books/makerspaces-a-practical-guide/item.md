@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2018
 	isbn: 1538108194
 	subjects: [Makerspaces - Operating]
-	audience: [College/University, Libraries]
+	audience: [College & University, Libraries]
 	expertise: []
 publisher: Rowman & Littlefield
 pagecount: 208

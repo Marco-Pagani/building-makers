@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2016
 	isbn: 1484218086
 	subjects: [Wearables]
-	audience: [College/University, General, Libraries]
+	audience: [College & University, General, Libraries]
 	expertise: [Beginner, Intermediate]
 publisher: Apress
 pagecount: 216

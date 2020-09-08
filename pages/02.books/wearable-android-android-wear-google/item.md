@@ -3,7 +3,7 @@ title: Wearable Android: Android wear & Google Fit app development
 taxonomy:
 	author: Sanjay Mishra
 	pubdate: 2015
-	audience: College/University,General
+	audience: College & University,General
 	expertise: Beginner,Intermediate,Advanced
 ---
 ## Wearable Android: Android wear & Google Fit app development
@@ -14,7 +14,7 @@ This book covers wearable computing and wearable application development particu
 
 **Expertise Level:** Beginner,Intermediate,Advanced
 
-**Intended Audience:** College/University,General
+**Intended Audience:** College & University,General
 
 **ISBN:** 978-1119051107
 

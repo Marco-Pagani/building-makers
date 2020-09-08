@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2014
 	isbn: 1449336515
 	subjects: [Wearables]
-	audience: [General, College/University, Libraries]
+	audience: [General, College & University, Libraries]
 	expertise: [Beginner, Intermediate]
 publisher: Maker Media
 pagecount: 257

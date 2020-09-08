@@ -3,7 +3,7 @@ title: Laser Designs and Projects: DIY Projects in Corel Draw to cut out and dec
 taxonomy:
 	author: William F Nelson Jr
 	pubdate: 2018
-	audience: College/University,General
+	audience: College & University,General
 	expertise: Intermediate,Advanced
 ---
 ## Laser Designs and Projects: DIY Projects in Corel Draw to cut out and decorate with a laser
@@ -14,7 +14,7 @@ Book of projects and designs - very little instruction - for more advanced users
 
 **Expertise Level:** Intermediate,Advanced
 
-**Intended Audience:** College/University,General
+**Intended Audience:** College & University,General
 
 **ISBN:** 978-0692140130
 

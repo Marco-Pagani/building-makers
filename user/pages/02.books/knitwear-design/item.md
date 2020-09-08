@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2013
 	isbn: 1780670583
 	subjects: [Sewing]
-	audience: [College/University, General]
+	audience: [College & University, General]
 	expertise: [Beginner, Intermediate]
 publisher: Laurence King Publishing
 pagecount: 208

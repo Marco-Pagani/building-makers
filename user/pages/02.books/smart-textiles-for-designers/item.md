@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2016
 	isbn: 1780677324
 	subjects: [Laser Cutting, Sewing, Fiber Arts]
-	audience: [General, College/University]
+	audience: [General, College & University]
 	expertise: [Beginner, Intermediate]
 	tag: [lesson plans]
 publisher: Laurence King Publishing

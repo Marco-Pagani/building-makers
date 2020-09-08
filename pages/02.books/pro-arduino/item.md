@@ -3,7 +3,7 @@ title: Pro Arduino
 taxonomy:
 	author: Rick Anderson,Dan Cervo
 	pubdate: 2013
-	audience: College/University,Libraries
+	audience: College & University,Libraries
 	expertise: Advanced
 ---
 ## Pro Arduino
@@ -14,7 +14,7 @@ UF Library - TJ223.P76A53 2013eb
 
 **Expertise Level:** Advanced
 
-**Intended Audience:** College/University,Libraries
+**Intended Audience:** College & University,Libraries
 
 **ISBN:** 978-1430239390
 

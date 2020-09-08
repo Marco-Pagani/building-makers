@@ -3,7 +3,7 @@ title: Arduino Microcontroller: Processing for Everyone!
 taxonomy:
 	author: Steven F. Barrett
 	pubdate: 2012
-	audience: College/University,K-12,Libraries,General
+	audience: College & University,K-12,Libraries,General
 	expertise: Beginner,Intermediate
 ---
 ## Arduino Microcontroller: Processing for Everyone!
@@ -14,7 +14,7 @@ UF Library Online link
 
 **Expertise Level:** Beginner,Intermediate
 
-**Intended Audience:** College/University,K-12,Libraries,General
+**Intended Audience:** College & University,K-12,Libraries,General
 
 **ISBN:** 978-1627052535
 

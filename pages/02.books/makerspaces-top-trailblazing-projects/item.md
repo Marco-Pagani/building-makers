@@ -3,7 +3,7 @@ title: Makerspaces : top trailblazing projects
 taxonomy:
 	author: Caitlin A.,Bagley
 	pubdate: 2014
-	audience: College/University,Libraries
+	audience: College & University,Libraries
 	expertise: Advanced
 ---
 ## Makerspaces : top trailblazing projects
@@ -14,7 +14,7 @@ The book provides information on Makerspace and its different uses and applicati
 
 **Expertise Level:** Advanced
 
-**Intended Audience:** College/University,Libraries
+**Intended Audience:** College & University,Libraries
 
 **ISBN:** 978-1-55570-990-7 (paper), 978-1-55570-991-4 (PDF),  978-1-55570-992-1 (ePub),  978-1-55570-993-8 (Kindle)
 

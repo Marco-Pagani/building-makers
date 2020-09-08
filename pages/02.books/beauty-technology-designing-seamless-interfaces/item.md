@@ -3,7 +3,7 @@ title: Beauty Technology: Designing Seamless Interfaces for Wearable Computing
 taxonomy:
 	author: Katia Vega,Hugo Fuks
 	pubdate: 2016
-	audience: General,College/University
+	audience: General,College & University
 	expertise: Beginner,Intermediate
 ---
 ## Beauty Technology: Designing Seamless Interfaces for Wearable Computing
@@ -14,7 +14,7 @@ By using the body's surface as an interactive platform, the integration of techn
 
 **Expertise Level:** Beginner,Intermediate
 
-**Intended Audience:** General,College/University
+**Intended Audience:** General,College & University
 
 **ISBN:** 978-3319157610
 

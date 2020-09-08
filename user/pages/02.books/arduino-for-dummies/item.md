@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2013
 	isbn: 1118446437
 	subjects: [Arduinos]
-	audience: [General, College/University, Libraries]
+	audience: [General, College & University, Libraries]
 	expertise: [Beginner, Intermediate]
 	tag: [lesson plans]
 publisher: John Wiley & Sons

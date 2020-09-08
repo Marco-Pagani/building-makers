@@ -3,7 +3,7 @@ title: The Art of Cutting: Tradition and New Techniques for Paper, Cardboard, Wo
 taxonomy:
 	author: Jean-Charles Trebbi
 	pubdate: 2015
-	audience: College/University,General,Libraries
+	audience: College & University,General,Libraries
 	expertise: Beginner,Intermediate,Advanced
 ---
 ## The Art of Cutting: Tradition and New Techniques for Paper, Cardboard, Wood, and Other Materials
@@ -14,7 +14,7 @@ This book presents a selection of artists who revisit and work with traditional 
 
 **Expertise Level:** Beginner,Intermediate,Advanced
 
-**Intended Audience:** College/University,General,Libraries
+**Intended Audience:** College & University,General,Libraries
 
 **ISBN:** 978-8415967156
 

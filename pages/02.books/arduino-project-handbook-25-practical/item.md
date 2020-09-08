@@ -3,7 +3,7 @@ title: Arduino Project Handbook: 25 Practical Projects to Get You Started
 taxonomy:
 	author: Mark Geddes
 	pubdate: 2016
-	audience: College/University,Libraries,General
+	audience: College & University,Libraries,General
 	expertise: Beginner
 ---
 ## Arduino Project Handbook: 25 Practical Projects to Get You Started
@@ -14,7 +14,7 @@ UF Lib - TJ223.P76
 
 **Expertise Level:** Beginner
 
-**Intended Audience:** College/University,Libraries,General
+**Intended Audience:** College & University,Libraries,General
 
 **ISBN:** 978-1593276904
 

@@ -15,25 +15,25 @@
 					<div class="tags">
 
 						{% if page.taxonomy.tag|length == 1 %}
-							<a class="tag is-info" href="/books/tag:lesson">
+							<div class="tag is-info">
 								Contains lesson plans
-							</a>
+							</div>
 						{% endif %}
 
 						{% for item in page.taxonomy.subjects %}
-							<a class="tag is-success" href="/books/subjects:{{item}}">
+							<a class="tag is-success" href="/books?subjects={{item | url_encode}}">
 								{{item}}
 							</a>
 						{% endfor %}
 
 						{% for item in page.taxonomy.audience %}
-							<a class="tag is-warning" href="/books/audience:{{item}}">
+							<a class="tag is-warning" href="/books?audience={{item | url_encode}}">
 								{{item}}
 							</a>
 						{% endfor %}
 
 						{% for item in page.taxonomy.expertise %}
-							<a class="tag is-danger" href="/books/expertise:{{item}}">
+							<a class="tag is-danger" href="/books?expertise={{item | url_encode}}">
 								{{item}}
 							</a>
 						{% endfor %}

@@ -3,7 +3,7 @@ title: The Art of Cardboard: Big Ideas for Creativity, Collaboration, Storytelli
 taxonomy:
 	author: Lori Zimmer
 	pubdate: 2015
-	audience: K-12,College/University,General
+	audience: K-12,College & University,General
 	expertise: Beginner,Intermediate
 ---
 ## The Art of Cardboard: Big Ideas for Creativity, Collaboration, Storytelling, and Reuse
@@ -14,7 +14,7 @@ Discusses how artists have used cardboard to do complex paper crafts while also 
 
 **Expertise Level:** Beginner,Intermediate
 
-**Intended Audience:** K-12,College/University,General
+**Intended Audience:** K-12,College & University,General
 
 **ISBN:** 978-1631590276
 

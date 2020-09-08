@@ -3,7 +3,7 @@ title: Makerspaces : a practical guide for librarians
 taxonomy:
 	author: Ellyssa,John; Kroski,Burke
 	pubdate: 2018
-	audience: College/University,Libraries
+	audience: College & University,Libraries
 	expertise: 
 ---
 ## Makerspaces : a practical guide for librarians
@@ -12,7 +12,7 @@ The book provides guidance, information and resources for librarians to create t
 
 **Publication Date:** 2018
 
-**Intended Audience:** College/University,Libraries
+**Intended Audience:** College & University,Libraries
 
 **ISBN:** 978-1-5381-0818-5 1-5381-0818-6
 

@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2013
 	isbn: 1627052542
 	subjects: [Arduinos]
-	audience: [College/University, K-12, Libraries, General]
+	audience: [College & University, K-12, Libraries, General]
 	expertise: [Beginner, Intermediate]
 	tag: [lesson plans]
 publisher: Morgan & Claypool Publishers

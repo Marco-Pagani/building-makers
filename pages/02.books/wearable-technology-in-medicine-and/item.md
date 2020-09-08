@@ -3,7 +3,7 @@ title: Wearable Technology in Medicine and Health Care
 taxonomy:
 	author: Raymond Tong
 	pubdate: 2018
-	audience: College/University,General
+	audience: College & University,General
 	expertise: Intermediate,Advanced
 ---
 ## Wearable Technology in Medicine and Health Care
@@ -14,7 +14,7 @@ Very specific to the medical field - focused on smart technologies (glasses and 
 
 **Expertise Level:** Intermediate,Advanced
 
-**Intended Audience:** College/University,General
+**Intended Audience:** College & University,General
 
 **ISBN:** 978-0128118108
 

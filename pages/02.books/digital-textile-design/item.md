@@ -3,7 +3,7 @@ title: Digital Textile Design
 taxonomy:
 	author: Melanie Bowles,Ceri Isaac
 	pubdate: 2012
-	audience: College/University,General
+	audience: College & University,General
 	expertise: Beginner,Intermediate
 ---
 ## Digital Textile Design
@@ -14,7 +14,7 @@ Digital Textile Design, Second Edition covers everything students and practition
 
 **Expertise Level:** Beginner,Intermediate
 
-**Intended Audience:** College/University,General
+**Intended Audience:** College & University,General
 
 **ISBN:** 978-1780670027
 

@@ -3,7 +3,7 @@ title: Creating with Laser Cutters and Engravers
 taxonomy:
 	author: Mary-Lane Kamberg
 	pubdate: 2017
-	audience: College/University,General,Libraries
+	audience: College & University,General,Libraries
 	expertise: Beginner,Intermediate
 ---
 ## Creating with Laser Cutters and Engravers
@@ -14,7 +14,7 @@ This text provides readers with an exploratory lens into the general world of th
 
 **Expertise Level:** Beginner,Intermediate
 
-**Intended Audience:** College/University,General,Libraries
+**Intended Audience:** College & University,General,Libraries
 
 **ISBN:** 978-1499465044
 

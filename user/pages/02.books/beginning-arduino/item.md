@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2013
 	isbn: 143025016X
 	subjects: [Arduinos]
-	audience: [Libraries, College/University, General, K-12]
+	audience: [Libraries, College & University, General, K-12]
 	expertise: [Beginner, Intermediate]
 	tag: [lesson plans]
 publisher: Apress

@@ -3,7 +3,7 @@ title: Smart Textiles for Designers: Inventing the Future of Fabrics
 taxonomy:
 	author: Rebeccah Pailes-Friedman
 	pubdate: 2016
-	audience: General,College/University
+	audience: General,College & University
 	expertise: Beginner,Intermediate
 ---
 ## Smart Textiles for Designers: Inventing the Future of Fabrics
@@ -14,7 +14,7 @@ Approaches centered on design and designers. Smart Textiles for Designers introd
 
 **Expertise Level:** Beginner,Intermediate
 
-**Intended Audience:** General,College/University
+**Intended Audience:** General,College & University
 
 **ISBN:** 978-1780677323
 

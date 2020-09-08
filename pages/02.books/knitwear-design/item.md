@@ -3,7 +3,7 @@ title: Knitwear Design
 taxonomy:
 	author: Carol Brown
 	pubdate: 2013
-	audience: College/University,General
+	audience: College & University,General
 	expertise: Beginner,Intermediate
 ---
 ## Knitwear Design
@@ -14,7 +14,7 @@ Packed with diagrams, knitwear samples and images from a wide range of contempor
 
 **Expertise Level:** Beginner,Intermediate
 
-**Intended Audience:** College/University,General
+**Intended Audience:** College & University,General
 
 **ISBN:** 978-1780670584
 

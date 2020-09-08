@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2014
 	isbn: 1555709907
 	subjects: [Making Scholarship, Makerspaces - Operating]
-	audience: [College/University, Libraries]
+	audience: [College & University, Libraries]
 	expertise: [Advanced]
 publisher: American Library Association
 pagecount: 128

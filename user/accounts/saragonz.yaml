@@ -1,0 +1,17 @@
+state: enabled
+email: Saragonz@ufl.edu
+fullname: Sara
+title: Owner
+access:
+  admin:
+    super: 'true'
+    login: 'true'
+  site:
+    login: 'true'
+hashed_password: $2y$10$aDCWr26D5hYxGyJpG97IguoHKruQTSLHo2HMz43YXwrkTetfkHMAy
+language: en
+twofa_enabled: false
+twofa_secret: 6JPSNCULS46JMVJXXYGCVUYD5KNCSMCV
+avatar: {  }
+info: null
+groups: null

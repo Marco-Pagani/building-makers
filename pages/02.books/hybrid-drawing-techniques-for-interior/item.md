@@ -3,7 +3,7 @@ title: Hybrid drawing techniques for interior design
 taxonomy:
 	author: Jorge,Paricio
 	pubdate: 2019
-	audience: College/University
+	audience: College & University
 	expertise: Advanced
 ---
 ## Hybrid drawing techniques for interior design
@@ -14,7 +14,7 @@ The book comprises detailed and illustrated instructions on interior design usin
 
 **Expertise Level:** Advanced
 
-**Intended Audience:** College/University
+**Intended Audience:** College & University
 
 **ISBN:** 1-138-28066-6
 

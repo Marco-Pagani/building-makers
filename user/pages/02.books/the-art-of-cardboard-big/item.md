@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2015
 	isbn: 1631590278
 	subjects: [Paper Crafts]
-	audience: [K-12, College/University, General]
+	audience: [K-12, College & University, General]
 	expertise: [Beginner, Intermediate]
 	tag: [lesson plans]
 publisher: Rockport Publishers

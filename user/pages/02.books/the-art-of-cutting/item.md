@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2015
 	isbn: 8415967152
 	subjects: [Laser Cutting, Crafts & Hobbies]
-	audience: [College/University, General, Libraries]
+	audience: [College & University, General, Libraries]
 	expertise: [Beginner, Intermediate, Advanced]
 	tag: [lesson plans]
 cover: http://books.google.com/books/content?id=koG1oQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api

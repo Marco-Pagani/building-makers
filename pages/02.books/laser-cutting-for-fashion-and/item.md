@@ -3,7 +3,7 @@ title: Laser Cutting for Fashion and Textiles
 taxonomy:
 	author: Laura Berens Baker
 	pubdate: 2016
-	audience: General,College/University
+	audience: General,College & University
 	expertise: Beginner,Intermediate
 ---
 ## Laser Cutting for Fashion and Textiles
@@ -14,7 +14,7 @@ In this book, Laura Berens Baker provides 14 inspirational projects that demonst
 
 **Expertise Level:** Beginner,Intermediate
 
-**Intended Audience:** General,College/University
+**Intended Audience:** General,College & University
 
 **ISBN:** 978-1780676173
 

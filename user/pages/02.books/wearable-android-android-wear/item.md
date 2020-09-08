@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2015
 	isbn: 111905110X
 	subjects: [Wearables]
-	audience: [College/University, General]
+	audience: [College & University, General]
 	expertise: [Beginner, Intermediate, Advanced]
 publisher: John Wiley & Sons
 pagecount: 280

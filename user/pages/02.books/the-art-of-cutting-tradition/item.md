@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2015
 	isbn: 8415967152
 	subjects: [Laser Cutting]
-	audience: [College/University, General, Libraries]
+	audience: [College & University, General, Libraries]
 	expertise: [Beginner, Intermediate, Advanced]
 	tag: [lesson plans]
 publisher: Promotora de prensa internacional S.A

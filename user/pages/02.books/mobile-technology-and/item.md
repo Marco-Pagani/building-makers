@@ -5,7 +5,7 @@ taxonomy:
 	pubdate: 2017
 	isbn: 0838988792
 	subjects: []
-	audience: [Libraries, College/University]
+	audience: [Libraries, College & University]
 	expertise: [Intermediate, Advanced]
 publisher: Association of College and Research Libraries
 pagecount: 269

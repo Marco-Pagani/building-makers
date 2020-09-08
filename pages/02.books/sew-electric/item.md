@@ -3,7 +3,7 @@ title: Sew Electric
 taxonomy:
 	author: Leah Buechley,Kanjun Qiu
 	pubdate: 2014
-	audience: K-12,College/University,General,Libraries
+	audience: K-12,College & University,General,Libraries
 	expertise: Beginner,Intermediate
 ---
 ## Sew Electric
@@ -14,7 +14,7 @@ Sew Electric is a set of hands-on LilyPad Arduino tutorials that bring together 
 
 **Expertise Level:** Beginner,Intermediate
 
-**Intended Audience:** K-12,College/University,General,Libraries
+**Intended Audience:** K-12,College & University,General,Libraries
 
 **ISBN:** 978-0989795609
 
